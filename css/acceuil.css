@@ -46,8 +46,8 @@ ul{
     color: #ffffff;
     text-transform: uppercase;
     margin-bottom: 30px;
-        font-weight: 500;
-position: relative;
+    font-weight: 500;
+    position: relative;
 }
 .footer-col h4::before{
 	content: '';
@@ -64,16 +64,13 @@ position: relative;
 }
 .footer-col ul li a{
 	font-size: 16px;
-	color: #ffffff;
 	text-decoration: none;
 	font-weight: 400;
-	color: #bbbbbb;
+	color: rgba(255, 255, 255, 0.50);
 	display: block;
 	transition: all 0.3s ease;
 }
-.footer-col ul li a:hover{
-	color: #ffffff;
-}
+
 .footer-col .social-links a{
 	display: inline-block;
     height: 40px;
