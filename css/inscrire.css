@@ -1,15 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;500&display=swap');
 
 * {
-    padding: 0;
-    margin: 0;
-    font-family: Montserrat;
-    box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: Montserrat;
+  box-sizing: border-box;
 }
 
 body , html {
-    background-color: #1E1E1E;
-    color: white;
+  background-color: #1E1E1E;
+  color: white;
 }
 
 
@@ -47,14 +47,17 @@ nav ul li a{
   letter-spacing: 1px;
   transition: all 0.3s ease;
 }
+nav .icon_navbar {
+  display: flex;
+}
 nav .icon {
   display: flex;
 }
 nav .icon_account {
-  padding: 10px;
+  padding-right: 25px;
 }
 nav .icon_panier {
-  padding: 10px;
+  padding-right: 25px;
 }
 nav .menu-btn i{
   color: #fff;
@@ -69,6 +72,11 @@ input[type="checkbox"]{
   nav{
     padding: 0 40px 0 50px;
   }
+  nav .logo{
+    color: #fff;
+    font-size: 16px;
+    text-transform: uppercase;
+  }
 }
 @media (max-width: 1250px) {
   nav .menu-btn i{
@@ -80,16 +88,16 @@ input[type="checkbox"]{
   nav ul{
     position: fixed;
     top: 80px;
-    left: -100%;
-    background: #111;
+    right: -100%;
+    background: #C81100;
     height: 100vh;
-    width: 100%;
+    width: 60%;
     text-align: center;
     display: block;
     transition: all 0.3s ease;
   }
   #click:checked ~ ul{
-    left: 0;
+    right: 0;
   }
   nav ul li{
     width: 100%;
@@ -107,9 +115,11 @@ input[type="checkbox"]{
   nav ul li a.active,
   nav ul li a:hover{
     background: none;
-    color: #E02B1A;
+    color: #1E1E1E;
   }
+
 }
+
 
 /*navbar*/
 /*title*/
@@ -123,52 +133,52 @@ input[type="checkbox"]{
     text-transform: uppercase;
 }
 .deja-1compte {
-    display: flex;
-    justify-content: center;
-    font-size: 18px;
-    font-weight: 300;
-    padding-top: 15px;
+  display: flex;
+  justify-content: center;
+  font-size: 18px;
+  font-weight: 300;
+  padding-top: 15px;
 }
 .deja-1compte .red {
-    color: #E02B1A;
+  color: #E02B1A;
 }
 .deja-1compte a {
-    color: white;
-    text-decoration: none;
-    padding-left: 8px;
+  color: white;
+  text-decoration: none;
+  padding-left: 8px;
 }
 .deja-1compte a .red{
-    color: #E02B1A;
-    text-decoration: none;
-    padding-right: 8px;
+  color: #E02B1A;
+  text-decoration: none;
+  padding-right: 8px;
 }
 .deja-1compte a .red:hover{
-    color: #E02B1A;
+  color: #E02B1A;
 }
 /*title*/
 /*input*/
 .grp_infos{
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 .container_infos {
-    display: flex;
-    flex-direction: column;
-    padding-top: 20px;
+  display: flex;
+  flex-direction: column;
+  padding-top: 20px;
 }
 .infos {
-    padding: 15px;
+  padding: 15px;
 }
 .infos input {
-    background-color: #1E1E1E;
-    border: solid 2px #595959;
-    border-radius: 5px;
-    color: rgba(255, 255, 255, 0.60);
-    font-size: 20px;
-    font-weight: 300;
-    padding-left: 15px;
-    width: 520px;
-    height: 64px;
+  background-color: #1E1E1E;
+  border: solid 2px #595959;
+  border-radius: 5px;
+  color: rgba(255, 255, 255, 0.60);
+  font-size: 20px;
+  font-weight: 300;
+  padding-left: 15px;
+  width: 520px;
+  height: 64px;
 }
 /*input*/
 
@@ -201,3 +211,124 @@ input[type="checkbox"]{
     color: white;
 }
 /*button*/
+
+footer {
+  background-color: #121212;
+  color: white;
+}
+
+/*footer*/
+.container{
+  max-width: 1170px;
+  margin:auto;
+}
+.row{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 5%;
+}
+ul{
+  list-style: none;
+}
+.footer{
+  background-color: #121212;
+  padding: 70px 0;
+  margin-top: 80px;
+}
+.app {
+  display: flex;
+  justify-content: space-around;
+}
+.app img {
+  padding-right: 10%;
+  width: 140px;
+}
+
+.footer-col{
+ width: 25%;
+ padding: 0 15px;
+}
+
+.footer-col h4{
+  font-size: 15px;
+  color: #ffffff;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+  font-weight: 500;
+  position: relative;
+}
+.footer-col h4::before{
+content: '';
+position: absolute;
+left:0;
+bottom: -10px;
+background-color: #E02B1A;
+height: 2px;
+box-sizing: border-box;
+width: 80px;
+}
+.footer-col ul li:not(:last-child){
+margin-bottom: 10px;
+}
+.footer-col ul li a{
+font-size: 16px;
+text-decoration: none;
+font-weight: 400;
+color: rgba(255, 255, 255, 0.50);
+display: block;
+transition: all 0.3s ease;
+}
+
+.footer-col .social-links a{
+display: inline-block;
+  height: 40px;
+  width: 40px;
+  margin: 0 10px 10px 0;
+  text-align: center;
+  line-height: 40px;
+  color: #E02B1A;
+  transition: all 0.5s ease;
+}
+.footer-col .social-links a:hover{
+color: #FFF;
+}
+/*paiement*/
+.img_paiement img {
+  width: 200px;
+  display: flex;
+  justify-content: center;
+}
+.paiement {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding-top: 30px;
+}
+.paiement p {
+  text-transform: uppercase;
+  display: flex;
+justify-content: center;
+}
+.grp_swipe {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 25px;
+}
+/*paiement*/
+/*swipe*/
+.swipe_border {
+  border: solid 2px;
+  border-radius: 50px;
+  width: 30px;
+  height: 30px;
+}
+.swipe span {
+  padding: 5px;
+}
+.swipe {
+  display: flex;
+  justify-content: center;  
+}
+/*swipe*/
+/*footer*/
