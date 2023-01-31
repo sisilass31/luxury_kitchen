@@ -94,7 +94,9 @@ ul{
     flex-direction: column;
     padding-top: 30px;
 }
-
+.paiement p {
+    text-transform: uppercase;
+}
 .grp_swipe {
     display: flex;
     justify-content: center;
@@ -121,11 +123,18 @@ ul{
 }
 
     .row {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-between;
-        padding: 5%;
-    }
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 5%;
+    text-align: center;
+}
+    .footer-col h4::before {
+    display: none;
+  }
+  #infos {
+    display: none;
+  }
 }
 @media(max-width: 574px){
   .footer-col{
