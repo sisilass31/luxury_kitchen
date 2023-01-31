@@ -161,31 +161,7 @@ input[type="checkbox"]{
   color: #E02B1A;
 }
 /*title*/
-/*input*/
-.grp_infos{
-  display: flex;
-  justify-content: center;
-}
-.container_infos {
-  display: flex;
-  flex-direction: column;
-  padding-top: 20px;
-}
-.infos {
-  padding: 15px;
-}
-.infos input {
-  background-color: #1E1E1E;
-  border: solid 2px #595959;
-  border-radius: 5px;
-  color: rgba(255, 255, 255, 0.60);
-  font-size: 20px;
-  font-weight: 300;
-  padding-left: 15px;
-  width: 520px;
-  height: 64px;
-}
-/*input*/
+
 
 /*check*/
 .condition {
