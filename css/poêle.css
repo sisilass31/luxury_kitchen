@@ -160,13 +160,14 @@ input[type="checkbox"] {
 .card {
     width: 24%;
     background-color: #595959;
-    border-radius:0 0 8px 8px;
+    border-radius:8px;
 }
 
 .card img {
     width: 100%;
     border-radius: 8px 8px 0 0;
 }
+
 .descr_panier {
     padding: 3%;
 }
@@ -205,11 +206,14 @@ button {
     height: 30px;
     color: white;
 }
-
 /*bouton*/
+/*responsive*/
+@media(max-width: 1200px) {
+   
+}
+
+/*responsive*/
 /*card*/
-
-
 
 /*footer*/
 footer {
