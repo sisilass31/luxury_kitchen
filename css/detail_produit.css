@@ -161,6 +161,10 @@ input[type="checkbox"] {
   border-radius: 8px;
 }
 
+.description {
+  padding: 0 2%;
+}
+
 .description strong {
   font-family: 'Montserrat';
   font-style: normal;
@@ -179,11 +183,17 @@ input[type="checkbox"] {
   line-height: 22px;
   letter-spacing: 0.02em;
   color: rgba(255, 255, 255, 0.55);
+  padding: 20px 0 10px 0;
+  line-height: 25px;
 }
 
 .livraison {
   display: flex;
   align-items: center;
+}
+
+.livraison strong {
+  padding-left: 20px;
 }
 
 .idk {
@@ -195,7 +205,7 @@ input[type="checkbox"] {
 .idk strong {
   font-family: 'Montserrat';
   font-style: normal;
-  font-weight: 600;
+  font-weight: 400;
   font-size: 18px;
   line-height: 27px;
   text-align: center;
@@ -216,22 +226,96 @@ input[type="checkbox"] {
 .grp_botton {
   display: flex;
   justify-content: space-around;
-  padding: 0 200px 0 200px;
+  padding: 25px 120px 0 120px;
 }
 
 .grp_botton input {
   background: linear-gradient(#E02B1A, #930D00);
   border: none;
   border-radius: 20px;
-  width: 200px;
-  height: 35px;
+  width: 250px;
+  height: 42px;
   color: white;
   font-size: 16px;
-  
 }
 
 /*details*/
+/*card*/
+.container_card {
+  padding: 10px;
+}
 
+.box_card {
+  display: flex;
+  justify-content: space-between;
+  padding: 1.2%;
+}
+
+.offre strong {
+  padding: 1.2%;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+}
+
+.card {
+  width: 24%;
+  background-color: #595959;
+  border-radius: 8px;
+}
+
+.card img {
+  width: 100%;
+  border-radius: 8px 8px 0 0;
+}
+
+.descr_panier {
+  padding: 3%;
+}
+
+.text_panier p {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 18px;
+  letter-spacing: 0.02em;
+  color: #FFFFFF;
+}
+
+.prix {
+  display: flex;
+  align-items: center;
+}
+
+.panier_prix {
+  display: flex;
+  justify-content: space-between;
+  padding: 5% 0 3% 0;
+}
+
+.prix_panier p {
+  font-size: 20px;
+  margin-right: 8px;
+}
+
+/*bouton*/
+button {
+  background: linear-gradient(#E02B1A, #930D00);
+  border: none;
+  border-radius: 5px;
+  width: 130px;
+  height: 30px;
+  color: white;
+}
+
+/*bouton*/
+/*responsive*/
+@media(max-width: 1200px) {}
+
+/*responsive*/
+/*card*/
 /*footer*/
 .container {
   max-width: 1170px;
@@ -249,11 +333,10 @@ ul {
   list-style: none;
 }
 
-.footer {
+footer {
   background-color: #121212;
-  padding: 70px 0;
-  margin-top: 80px;
 }
+
 
 .app {
   display: flex;
