@@ -13,11 +13,6 @@ html {
     color: white;
 }
 
-footer {
-    background-color: #121212;
-    color: white;
-}
-
 /*navbar*/
 nav {
     display: flex;
@@ -156,108 +151,78 @@ input[type="checkbox"] {
 /*main*/
 
 /*offre*/
-.title_offre h2 {
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 23px;
-    letter-spacing: 0.02em;
-}
-
-/*card*/
-.card {
-    width: 288px;
-    height: 250px;
-    background-color: #595959;
-    border-radius: 8px;
-}
-
-.card img {
-    width: 288px;
-    border-radius: 8px 8px 0 0;
-    height: 185px;
-    object-fit: cover;
-}
-
-/*card*/
-
+.title_
 /*offre*/
 
 /*main*/
 
 /*footer*/
-
-
-.container {
-    max-width: 1170px;
-    margin: auto;
+footer {
+    background-color: #121212;
+    color: white;
 }
 
-.row {
-    display: flex;
+.container{
+	max-width: 1170px;
+	margin:auto;
+}
+.row{
+	display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     padding: 5%;
 }
-
-ul {
-    list-style: none;
+ul{
+	list-style: none;
 }
-
-.footer {
-    background-color: #121212;
+.footer{
+	background-color: #121212;
     padding: 70px 0;
 }
-
 .app {
     display: flex;
     justify-content: space-around;
-}
-
+ }
 .app img {
     padding-right: 10%;
     width: 140px;
 }
-
-.footer-col {
-    width: 25%;
-    padding: 0 15px;
+.footer-col{
+   width: 25%;
+   padding: 0 15px;
 }
-
-.footer-col h4 {
-    font-size: 15px;
+.footer-col h4{
+	font-size: 15px;
     color: #ffffff;
     text-transform: uppercase;
     margin-bottom: 30px;
     font-weight: 500;
     position: relative;
 }
-
-.footer-col h4::before {
-    content: '';
-    position: absolute;
-    left: 0;
-    bottom: -10px;
-    background-color: #E02B1A;
-    height: 2px;
-    box-sizing: border-box;
-    width: 80px;
+.footer-col h4::before{
+	content: '';
+	position: absolute;
+	left:0;
+	bottom: -10px;
+	background-color: #E02B1A;
+	height: 2px;
+	box-sizing: border-box;
+	width: 80px;
+}
+.footer-col ul li:not(:last-child){
+	margin-bottom: 10px;
+}
+.footer-col ul li a{
+	font-size: 16px;
+	text-decoration: none;
+	font-weight: 400;
+	color: rgba(255, 255, 255, 0.50);
+	display: block;
+	transition: all 0.3s ease;
 }
 
-.footer-col ul li:not(:last-child) {
-    margin-bottom: 10px;
-}
-
-.footer-col ul li a {
-    font-size: 16px;
-    text-decoration: none;
-    font-weight: 400;
-    color: rgba(255, 255, 255, 0.50);
-    display: block;
-    transition: all 0.3s ease;
-}
-
-.footer-col .social-links a {
-    display: inline-block;
+.footer-col .social-links a{
+	display: inline-block;
     height: 40px;
     width: 40px;
     margin: 0 10px 10px 0;
@@ -266,77 +231,65 @@ ul {
     color: #E02B1A;
     transition: all 0.5s ease;
 }
-
-.footer-col .social-links a:hover {
-    color: #FFF;
+.footer-col .social-links a:hover{
+	color: #FFF;
 }
 
 .img_paiement img {
     width: 140px;
 }
-
 .paiement {
     display: flex;
     justify-content: center;
     flex-direction: column;
     padding-top: 30px;
 }
-
 .paiement p {
     text-transform: uppercase;
 }
-
 .grp_swipe {
     display: flex;
     justify-content: center;
     padding-bottom: 25px;
 }
-
 .swipe_border {
     border: solid 2px;
     border-radius: 50px;
     width: 30px;
     height: 30px;
 }
-
 .swipe span {
     padding: 5px;
 }
-
 .swipe {
     display: flex;
-    justify-content: center;
+    justify-content: center;  
 }
-
 /*responsive*/
-@media(max-width: 976px) {
-    .footer-col {
-        width: 50%;
-        margin-bottom: 30px;
-    }
+@media(max-width: 976px){
+  .footer-col{
+    width: 50%;
+    margin-bottom: 30px;
+}
 
     .row {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-between;
-        padding: 5%;
-        text-align: center;
-    }
-
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 5%;
+    text-align: center;
+}
     .footer-col h4::before {
-        display: none;
-    }
-
-    #infos {
-        display: none;
-    }
+    display: none;
+  }
+  #infos {
+    display: none;
+  }
 }
-
-@media(max-width: 574px) {
-    .footer-col {
-        width: 100%;
-    }
+@media(max-width: 574px){
+  .footer-col{
+    width: 100%;
 }
-
+}
 /*responsive*/
 /*footer*/

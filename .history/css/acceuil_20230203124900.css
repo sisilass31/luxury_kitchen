@@ -175,7 +175,6 @@ input[type="checkbox"] {
     width: 288px;
     border-radius: 8px 8px 0 0;
     height: 185px;
-    object-fit: cover;
 }
 
 /*card*/
