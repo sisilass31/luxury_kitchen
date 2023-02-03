@@ -125,26 +125,87 @@ input[type="checkbox"]{
 
 }
 /* navbar */
+ 
+
+
 .icones{
     padding-left: 20px;
 	padding-top: 20px;
 }
 
-p .p1 {
-	font-family: 'Montserrat';
-	font-style: normal;
-	font-weight: 500;
-	font-size: 25px;
-	line-height: 30px;
-	letter-spacing: 0.02em;
+p.p1 {
+  color: #ffffff;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 35px;
+  line-height: 30px;
+  letter-spacing: 0.02em;
+  margin-bottom: 10px;
+  padding-right: 70px;
 }
 
+
+p.p2{
+  font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 25px;
+line-height: 20px;
+letter-spacing: 0.02em;
+color: rgba(255, 255, 255, 0.8);
+}
 .user{
 	display: flex;
 }
 
 .texte1{
 	padding-top: 80px;
+}
+
+hr.h2{
+  width: 100px;
+  background-color: #930D00;
+  height: 3px;
+  border: none;
+  margin-left: 90px;
+  margin-top: -3px;
+}
+
+h1{
+  text-align:center ;
+  font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 25px;
+line-height: 24px;
+letter-spacing: 0.02em;
+text-transform: uppercase;
+margin-bottom: 14px;
+}
+
+p{
+  text-align: center;
+  margin-bottom: 14px;
+  font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 22px;
+text-align: center;
+letter-spacing: 0.02em;
+}
+
+p.p6{
+  font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 22px;
+text-align: center;
+letter-spacing: 0.02em;
+
+color: rgba(255, 255, 255, 0.8);
 }
 
 .texte2 {
@@ -160,11 +221,13 @@ p .p1 {
     line-height: 24px;
     letter-spacing: 0.02em;
     text-transform: uppercase;
-
+color: #ffffff;
 }
 hr {
-	margin-top: 10px;
+	margin-top: 0px;
 	size: 500px;
+  height: 3px;
+  background-color: #ffffff;
 }
 
 .texte3 p {
@@ -203,20 +266,17 @@ hr {
   padding-right: 200px;
 }
 
-h1{
-  text-align: center;
+
+.button{
+padding-left: 90px;
+}
+
+.button1{
+  padding-left: 120px;
 }
 
 input{
-  /* text-align: center;
-  background-color: #930D00;
-  color: #FFF;
-  border: none;
-  display: flex;
-  justify-content: center;
-  height: 40px;
-  position: absolute; */
-width: 277px;
+width: 257px;
 height: 36px;
 left: 60px;
 top: 881px;
@@ -225,6 +285,7 @@ border: none;
 background: linear-gradient(180deg, rgba(224, 43, 26, 0.5) 0%, #930D00 123.81%);
 border-radius: 5px;
 font-size: 18px;
+
 }
 
 

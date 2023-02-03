@@ -262,13 +262,14 @@ input[type="checkbox"]{
 .button {
     display: flex;
     justify-content: center;
+    margin-bottom: 50px;
 }
 .button input {
     background: linear-gradient(#E02B1A, #930D00);
     border: white;
     width: 200px;
     height: 48px;
-    border-radius: 8px;
+    border-radius: 5px;
     font-size: 18px;
     text-transform: uppercase;
     color: white;
