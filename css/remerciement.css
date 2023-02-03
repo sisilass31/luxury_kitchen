@@ -125,6 +125,19 @@ input[type="checkbox"]{
 
 }
 
+.img1{
+  display: flex;
+  justify-content: center;
+}
+
+
+
+
+
+
+
+
+
 footer {
 	background-color: #121212;
 	color: white;
