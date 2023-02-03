@@ -128,10 +128,40 @@ input[type="checkbox"]{
 .img1{
   display: flex;
   justify-content: center;
+  margin-bottom: 100px;
 }
 
+.img img {
+padding-left: 100px;
+margin-top: 100px;
+}
 
+p.p5{
+  text-align: center;
+  font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 24px;
+text-align: center;
+letter-spacing: 0.02em;
+color: rgba(255, 255, 255, 0.5);
+margin-top: 20px;
+margin-bottom: 20px;
+}
 
+input {
+  width: 254px;
+height: 44px;
+left: 498px;
+top: 698px;
+color: #121212;
+background: #D9D9D9;
+border-radius: 8px;
+border: none;
+font-size: 20px;
+margin-left: 190px;
+}
 
 
 
