@@ -149,11 +149,11 @@ input[type="checkbox"] {
 /*navbar*/
 
 /*panier*/
-/*.descr_product {
+.descr_product {
     display: flex;
 }
 
-.descr_product img {
+.img_product {
     width: 20%;
     border-radius: 8px;
 }
@@ -173,9 +173,7 @@ input[type="checkbox"] {
 .title_product {
     display: flex;
     flex-direction: column;
-}*/
-
-
+}
 
 
 /*panier*/

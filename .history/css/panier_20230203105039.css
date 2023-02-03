@@ -149,7 +149,7 @@ input[type="checkbox"] {
 /*navbar*/
 
 /*panier*/
-/*.descr_product {
+.descr_product {
     display: flex;
 }
 
@@ -173,9 +173,7 @@ input[type="checkbox"] {
 .title_product {
     display: flex;
     flex-direction: column;
-}*/
-
-
+}
 
 
 /*panier*/

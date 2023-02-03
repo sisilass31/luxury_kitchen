@@ -149,7 +149,7 @@ input[type="checkbox"] {
 /*navbar*/
 
 /*panier*/
-/*.descr_product {
+.descr_product {
     display: flex;
 }
 
@@ -158,25 +158,10 @@ input[type="checkbox"] {
     border-radius: 8px;
 }
 
-.title_product h2{
-    padding-top: 10%;
-    font-weight: 600;
-    line-height: 29px;
-    letter-spacing: 0.02em;
-}
 .prix_icon {
     display: flex;
     align-items: center;
-    margin-top: 90%;
 }
-
-.title_product {
-    display: flex;
-    flex-direction: column;
-}*/
-
-
-
 
 /*panier*/
 
