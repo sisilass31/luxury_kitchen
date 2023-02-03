@@ -148,7 +148,7 @@ p.p2{
   font-family: 'Montserrat';
 font-style: normal;
 font-weight: 500;
-font-size: 35px;
+font-size: 25px;
 line-height: 20px;
 letter-spacing: 0.02em;
 color: rgba(255, 255, 255, 0.8);
@@ -192,34 +192,37 @@ hr.h2{
   height: 3px;
   border: none;
   margin-left: 665px;
-margin-top: -3px;
+  margin-top: -3px;
 }
-/* navbar */
 
-.pckge {
-    padding-left: 550px;
-    margin-top: 90px;
-    }
 
-    h1{
-      display: flex;
-      justify-content: center;
-      font-family: 'Montserrat';
-      font-style: normal;
-      font-weight: 500;
-      font-size: 24px;
-      line-height: 29px;
-      letter-spacing: 0.02em;
-      margin-bottom: 10px;
+.pckge1 {
+display: flex;
+justify-content: center;
+margin-bottom: 100px;
+margin-top: 100px;
+}
+
+h1{
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 29px;
+letter-spacing: 0.02em;
+margin-bottom: 10px;
+}
     
-    
-    }
-    
+.icone{
+margin-left: 150px;
+}
+
+p.p4{
+  margin-left: 30px;
+  text-align: center;
+}
+
  
-
-
-
-
 
 
 
