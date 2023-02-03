@@ -148,6 +148,20 @@ input[type="checkbox"] {
 
 /*navbar*/
 
+/*image*/
+.image img {
+    width: 30%;
+}
+.title_panier_vide h3{
+    font-weight: 500;
+font-size: 26px;
+line-height: 32px;
+/* identical to box height */
+
+letter-spacing: 0.02em;
+}
+/*image*/
+
 /*bouton*/
 button {
     background: linear-gradient(#E02B1A, #930D00);
