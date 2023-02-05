@@ -124,10 +124,11 @@ input[type="checkbox"]{
   }
 
 }
-
-
 /*navbar*/
 /*title*/
+
+
+
 .creation_title {
     display: flex;
     justify-content: center;

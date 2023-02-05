@@ -125,9 +125,19 @@ input[type="checkbox"]{
 
 }
 /* navbar */
+
+
+.user{
+	display: flex;
+}
+
 .icones{
     padding-left: 20px;
 	padding-top: 20px;
+}
+
+.texte1{
+	padding-top: 80px;
 }
 
 p.p1 {
@@ -142,8 +152,6 @@ p.p1 {
   padding-right: 70px;
 }
 
-
-
 p.p2{
   font-family: 'Montserrat';
 font-style: normal;
@@ -154,15 +162,6 @@ letter-spacing: 0.02em;
 color: rgba(255, 255, 255, 0.8);
 }
 
-
-.user{
-	display: flex;
-}
-
-.texte1{
-	padding-top: 80px;
-}
-
 .texte2 {
 	display: flex;
 	justify-content: space-between;
@@ -171,17 +170,17 @@ color: rgba(255, 255, 255, 0.8);
 	margin-right: 80px;
 	font-size: 20px;
 	font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 600;
-    line-height: 24px;
-    letter-spacing: 0.02em;
-    text-transform: uppercase;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
 
 }
 hr {
 	margin-top: 10px;
   background-color: #ffffff;
-  height: 3px;
+  height: 4px;
 	size: 500px;
   z-index: -1;
 }
@@ -189,10 +188,10 @@ hr {
 hr.h2{
   width: 170px;
   background-color: #930D00;
-  height: 3px;
+  height: 4px;
   border: none;
   margin-left: 665px;
-  margin-top: -3px;
+  margin-top: -4px;
 }
 
 
@@ -201,6 +200,11 @@ display: flex;
 justify-content: center;
 margin-bottom: 300px;
 margin-top: 100px;
+}
+
+.icone{
+  margin-left: 160px;
+  margin-bottom: 20px;
 }
 
 h1{
@@ -213,20 +217,11 @@ letter-spacing: 0.02em;
 margin-bottom: 10px;
 }
     
-.icone{
-margin-left: 160px;
-margin-bottom: 20px;
-}
-
 p.p4{
   margin-left: 10px;
   text-align: center;
 
 }
-
- 
-
-
 
 /* footer */
 footer {

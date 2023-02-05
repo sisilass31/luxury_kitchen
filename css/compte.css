@@ -127,10 +127,17 @@ input[type="checkbox"]{
 /* navbar */
  
 
+.user{
+	display: flex;
+}
 
 .icones{
     padding-left: 20px;
 	padding-top: 20px;
+}
+
+.texte1{
+	padding-top: 80px;
 }
 
 p.p1 {
@@ -155,59 +162,6 @@ line-height: 20px;
 letter-spacing: 0.02em;
 color: rgba(255, 255, 255, 0.8);
 }
-.user{
-	display: flex;
-}
-
-.texte1{
-	padding-top: 80px;
-}
-
-hr.h2{
-  width: 100px;
-  background-color: #930D00;
-  height: 3px;
-  border: none;
-  margin-left: 90px;
-  margin-top: -3px;
-}
-
-h1{
-  text-align:center ;
-  font-family: 'Montserrat';
-font-style: normal;
-font-weight: 600;
-font-size: 25px;
-line-height: 24px;
-letter-spacing: 0.02em;
-text-transform: uppercase;
-margin-bottom: 14px;
-}
-
-p{
-  text-align: center;
-  margin-bottom: 14px;
-  font-family: 'Montserrat';
-font-style: normal;
-font-weight: 500;
-font-size: 18px;
-line-height: 22px;
-text-align: center;
-letter-spacing: 0.02em;
-}
-
-p.p6{
-  font-family: 'Montserrat';
-font-style: normal;
-font-weight: 500;
-font-size: 18px;
-line-height: 22px;
-text-align: center;
-letter-spacing: 0.02em;
-
-color: rgba(255, 255, 255, 0.8);
-}
-
 .texte2 {
 	display: flex;
 	justify-content: space-between;
@@ -223,13 +177,35 @@ color: rgba(255, 255, 255, 0.8);
     text-transform: uppercase;
 color: #ffffff;
 }
-hr {
-	margin-top: 0px;
-	size: 500px;
-  height: 3px;
-  background-color: #ffffff;
+
+p{
+  text-align: center;
+  margin-bottom: 14px;
+  font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 22px;
+text-align: center;
+letter-spacing: 0.02em;
 }
 
+hr {
+	margin-top: 10px;
+  background-color: #ffffff;
+  height: 4px;
+	size: 500px;
+  z-index: -1;
+}
+
+hr.h2{
+  width: 170px;
+  background-color: #930D00;
+  height: 4px;
+  border: none;
+  margin-left: 90px;
+  margin-top: -4px;
+}
 .texte3 p {
 	text-align: center;
 	margin-top: 40px;
@@ -242,7 +218,6 @@ hr {
     text-transform: uppercase;
 	margin-bottom: 60px;
 }
-
 .img {
 	display: flex;
 	justify-content: space-between;
@@ -256,14 +231,36 @@ hr {
 }
 
 
-
-
 .texte4 {
   display: flex;
   justify-content: space-between;
   margin-top: 100px;
   padding-left: 200px;
   padding-right: 200px;
+}
+
+h1{
+  text-align:center ;
+  font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 25px;
+line-height: 24px;
+letter-spacing: 0.02em;
+text-transform: uppercase;
+margin-bottom: 14px;
+}
+
+p.p6{
+  font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 22px;
+text-align: center;
+letter-spacing: 0.02em;
+
+color: rgba(255, 255, 255, 0.8);
 }
 
 
@@ -288,7 +285,7 @@ font-size: 18px;
 
 }
 
-
+/* footer */
 footer {
 	background-color: #121212;
 	color: white;

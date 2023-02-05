@@ -276,12 +276,18 @@ input[type="checkbox"]{
 }
 /*button*/
 
+
+
+
+
+
+/*footer*/
 footer {
   background-color: #121212;
   color: white;
 }
 
-/*footer*/
+
 .container{
   max-width: 1170px;
   margin:auto;
