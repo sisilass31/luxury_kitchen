@@ -180,12 +180,37 @@ margin-top: 40px;
   margin-top: 20px;
   display: flex;
   justify-content: space-between;
-
 }
+
 input#click {
   border-radius: 0px;
 }
 
+.buy2{
+  width: 50%;
+}
+
+.buy3{
+  display: flex;
+  justify-content: space-between;
+}
+
+.button {
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 80px;
+}
+.button input {
+  background: linear-gradient(#E02B1A, #930D00);
+  border: white;
+  width: 250px;
+  height: 48px;
+  border-radius: 5px;
+  font-size: 18px;
+  text-transform: uppercase;
+  color: white;
+}
 
 
 /*footer*/
