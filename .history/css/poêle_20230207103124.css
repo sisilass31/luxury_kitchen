@@ -151,6 +151,7 @@ input[type="checkbox"] {
 /*______________________________________________________________________*/
 /*card*/
 .container {
+    width: 1455px;
     padding: 20px;
     display: flex;
     justify-content: space-around;
@@ -167,12 +168,10 @@ input[type="checkbox"] {
 }
 
 /*hover*/
-
 .container .card:hover {
-    transform: scale(1.03);
+    transform: scale(1.04);
     opacity: 1;
 }
-
 /*hover*/
 
 .container .card {
@@ -240,7 +239,6 @@ button {
 }
 
 /*card*/
-
 /*responsive*/
 @media (min-width: 535px) {
     .card {
@@ -266,7 +264,7 @@ button {
     }
 
     .container {
-        padding: 10px 10px 25px 10px;
+        padding: 10px;
     }
 }
 
@@ -324,7 +322,6 @@ button {
     }
 
 }
-
 /*responsive*/
 /*______________________________________________________________________*/
 /*footer*/
@@ -333,6 +330,9 @@ footer {
     color: white;
 }
 
+.container {
+    margin: auto;
+}
 
 .row {
     display: flex;

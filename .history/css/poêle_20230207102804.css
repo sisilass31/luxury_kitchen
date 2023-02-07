@@ -9,7 +9,9 @@
 
 body,
 html {
-
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: #1E1E1E;
     color: white;
 }
@@ -148,9 +150,11 @@ input[type="checkbox"] {
 }
 
 /*navbar*/
-/*______________________________________________________________________*/
+
+/*card*/
 /*card*/
 .container {
+    width: 1455px;
     padding: 20px;
     display: flex;
     justify-content: space-around;
@@ -169,7 +173,7 @@ input[type="checkbox"] {
 /*hover*/
 
 .container .card:hover {
-    transform: scale(1.03);
+    transform: scale(1.04);
     opacity: 1;
 }
 
@@ -241,98 +245,22 @@ button {
 
 /*card*/
 
-/*responsive*/
-@media (min-width: 535px) {
-    .card {
-        width: 45%;
-    }
-
-    .text_panier p {
-        font-size: 12px;
-    }
-
-    .prix_panier p {
-        font-size: 17px;
-    }
-
-    button {
-        background: #E02B1A;
-        border: none;
-        border-radius: 5px;
-        width: 135px;
-        height: 25px;
-        color: white;
-        font-size: 14px;
-    }
-
-    .container {
-        padding: 10px 10px 25px 10px;
-    }
-}
-
-@media (max-width: 635px) {
-    .card {
-        width: 45%;
-    }
-
-    .prix_panier p {
-        font-size: 15px;
-    }
-
-    button {
-        background: #E02B1A;
-        border: none;
-        border-radius: 5px;
-        width: 100px;
-        height: 22px;
-        color: white;
-        font-size: 10px;
-    }
-
-    .container {
-        padding: 10px;
-    }
-
-}
-
-@media (min-width: 800px) {
-    .card {
-        width: 30%;
-    }
-
-    .text_panier p {
-        font-size: 15px;
-    }
-
-    .prix_panier p {
-        font-size: 20px;
-    }
-
-}
-
-@media (min-width: 1025px) {
-    .card {
-        width: 24%;
-    }
-
-    .text_panier p {
-        font-size: 15px;
-    }
-
-    .prix_panier p {
-        font-size: 20px;
-    }
-
-}
 
 /*responsive*/
-/*______________________________________________________________________*/
+
+/*responsive*/
+/*card*/
+
 /*footer*/
 footer {
     background-color: #121212;
     color: white;
 }
 
+.container {
+    max-width: 1170px;
+    margin: auto;
+}
 
 .row {
     display: flex;
