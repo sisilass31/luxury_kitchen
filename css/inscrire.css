@@ -223,6 +223,53 @@ form {
 }
 /*button*/
 
+
+
+
+
+@media (max-width:600px) {
+
+  input[type="text"] {
+    width: 290px;
+    height: 56px;
+    font-size: 15px;
+  }
+
+  button.btnblue {
+    height: 34px;
+    width: 250px;
+    font-size: 12px;
+  }
+
+  button.btnblack {
+
+    height: 34px;
+    width: 250px;
+    font-size: 12px;
+  }
+
+  button.btnlight {
+    height: 34px;
+    width: 250px;
+    font-size: 12px;
+  }
+
+  .deja-1compte {
+    font-size: 13px;
+  }
+
+  .button1 {
+    padding-left: 100px;
+  }
+
+  input[type="submit"] {
+    font-size: 15px;
+    height: 41px;
+    width: 144px;
+  }
+}
+
+
 footer {
   background-color: #121212;
   color: white;
