@@ -156,13 +156,14 @@ input[type="checkbox"] {
 }
 
 .box img {
-  width: 365px;
-  height: 355px;
-  border-radius: 8px;
+  width: 100%;
 }
+
 .img {
-  width: auto;
+  width: 389px;
 }
+
+
 .description {
   padding: 0 2%;
 }
@@ -214,13 +215,15 @@ input[type="checkbox"] {
   letter-spacing: 0.02em;
   color: #FFFFFF;
 }
+
 input {
   cursor: pointer;
 }
 
-.ajout_au_panier button{
+.ajout_au_panier button {
   cursor: pointer;
 }
+
 .idk p {
   font-family: 'Montserrat';
   font-style: normal;
@@ -246,11 +249,7 @@ input {
   color: white;
   font-size: 16px;
 }
-/*responsive*/
-@media(max-width: 976px) {
- 
-}
-/*responsive*/
+
 /*details*/
 
 /*bouton*/

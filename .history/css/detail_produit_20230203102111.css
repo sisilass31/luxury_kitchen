@@ -160,9 +160,7 @@ input[type="checkbox"] {
   height: 355px;
   border-radius: 8px;
 }
-.img {
-  width: auto;
-}
+
 .description {
   padding: 0 2%;
 }
@@ -177,7 +175,7 @@ input[type="checkbox"] {
   color: #FFFFFF;
 }
 
-#description {
+.description p {
   font-family: 'Montserrat';
   font-style: normal;
   font-weight: 500;
@@ -246,12 +244,67 @@ input {
   color: white;
   font-size: 16px;
 }
-/*responsive*/
-@media(max-width: 976px) {
- 
-}
-/*responsive*/
+
 /*details*/
+/*card*/
+.container_card {
+  padding-top: 10px;
+}
+
+.box_card {
+  display: flex;
+  justify-content: space-between;
+  padding: 2%;
+}
+
+.offre strong {
+  padding: 2%;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+}
+
+.card {
+  width: 24%;
+  background-color: #595959;
+  border-radius: 8px;
+}
+
+.card img {
+  width: 100%;
+  border-radius: 8px 8px 0 0;
+}
+
+.descr_panier {
+  padding: 3%;
+}
+
+.text_panier p {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 18px;
+  letter-spacing: 0.02em;
+  color: #FFFFFF;
+}
+
+.prix {
+  display: flex;
+  align-items: center;
+}
+
+.panier_prix {
+  display: flex;
+  justify-content: space-between;
+  padding: 5% 0 3% 0;
+}
+
+.prix_panier p {
+  font-size: 20px;
+  margin-right: 8px;
+}
 
 /*bouton*/
 button {
@@ -264,12 +317,10 @@ button {
 }
 
 /*bouton*/
-
-/*card*/
-/*card*/
-/*responsive*/
 /*responsive*/
 
+/*responsive*/
+/*card*/
 /*footer*/
 .container {
   max-width: 1170px;

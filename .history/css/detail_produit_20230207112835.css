@@ -154,14 +154,22 @@ input[type="checkbox"] {
   justify-content: center;
   margin: 2%;
 }
-
 .box img {
-  width: 365px;
-  height: 355px;
+  width: 100%;
+  }
+  .img {
+  width: 389px;
+  }
+.box img {
+  
   border-radius: 8px;
 }
+.box img {
+  width: 100%;
+}
+
 .img {
-  width: auto;
+  width: 389px;
 }
 .description {
   padding: 0 2%;
@@ -246,11 +254,7 @@ input {
   color: white;
   font-size: 16px;
 }
-/*responsive*/
-@media(max-width: 976px) {
- 
-}
-/*responsive*/
+
 /*details*/
 
 /*bouton*/

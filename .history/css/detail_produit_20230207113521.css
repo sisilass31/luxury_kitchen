@@ -248,7 +248,9 @@ input {
 }
 /*responsive*/
 @media(max-width: 976px) {
- 
+  .r_panier {
+    display: flex;
+  }
 }
 /*responsive*/
 /*details*/

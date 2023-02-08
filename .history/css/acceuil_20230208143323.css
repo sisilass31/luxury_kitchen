@@ -157,27 +157,29 @@ input[type="checkbox"] {
 
 /*offre*/
 .nos_offres {
-    padding: 18px;
-    gap: 15px;
+    padding: 1%;
+    gap: 1%;
+    -ms-overflow-style: none;
     scrollbar-width: none;
+    width: auto;
+    overflow-y: hidden;
     overflow-x: scroll;
     display: flex;
+    align-items: stretch;
+    scroll-snap-type: x mandatory;
 }
-
 .title_offre h2 {
     font-weight: 400;
     font-size: 20px;
     line-height: 23px;
     letter-spacing: 0.02em;
-    padding: 40px 0 12px 18px;
+    padding: 40px 0 12px 25px;
 }
-
 /*card*/
 .ajout_panier form {
     display: flex;
     justify-content: center;
 }
-
 .box-card {
     width: 330px;
     height: 295px;
@@ -200,6 +202,7 @@ input[type="checkbox"] {
 .text_panier {
     display: flex;
     justify-content: center;
+    padding: 4.5%;
     font-size: 15px;
     line-height: 18px;
     letter-spacing: 0.02em;
@@ -219,10 +222,11 @@ button {
 
 /*bouton*/
 
+/*offre*/
 /*slide mini card*/
-.title_mini_card h2{
-    font-weight: 400;
-    font-size: 20px;
+.title_mini_card {
+    color: white;
+    font-size: 15px;
     line-height: 23px;
     letter-spacing: 0.02em;
     padding: 20px 0 0 18px;
@@ -255,7 +259,7 @@ button {
     border-radius: 5px;
     width: 135px;
     height: 25px;
-    font-size: 13px;
+    font-size: 12px;
     color: white;
 }
 
@@ -302,7 +306,6 @@ button {
 .prix_panier p {
     font-size: 17px;
 }
-
 /*slide mini card*/
 /*main*/
 

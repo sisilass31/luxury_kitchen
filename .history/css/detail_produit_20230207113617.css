@@ -151,6 +151,7 @@ input[type="checkbox"] {
 /*details*/
 .box {
   display: flex;
+  fl
   justify-content: center;
   margin: 2%;
 }
@@ -248,7 +249,10 @@ input {
 }
 /*responsive*/
 @media(max-width: 976px) {
- 
+  .r_panier {
+    display: flex;
+    flex-direction: column;
+  }
 }
 /*responsive*/
 /*details*/

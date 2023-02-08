@@ -162,6 +162,7 @@ input[type="checkbox"] {
     scrollbar-width: none;
     overflow-x: scroll;
     display: flex;
+    scroll-snap-type: x mandatory;
 }
 
 .title_offre h2 {

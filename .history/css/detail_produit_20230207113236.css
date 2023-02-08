@@ -160,9 +160,7 @@ input[type="checkbox"] {
   height: 355px;
   border-radius: 8px;
 }
-.img {
-  width: auto;
-}
+
 .description {
   padding: 0 2%;
 }
@@ -177,7 +175,7 @@ input[type="checkbox"] {
   color: #FFFFFF;
 }
 
-#description {
+description {
   font-family: 'Montserrat';
   font-style: normal;
   font-weight: 500;
@@ -246,11 +244,7 @@ input {
   color: white;
   font-size: 16px;
 }
-/*responsive*/
-@media(max-width: 976px) {
- 
-}
-/*responsive*/
+
 /*details*/
 
 /*bouton*/

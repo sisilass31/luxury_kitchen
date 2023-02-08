@@ -246,11 +246,7 @@ input {
   color: white;
   font-size: 16px;
 }
-/*responsive*/
-@media(max-width: 976px) {
- 
-}
-/*responsive*/
+
 /*details*/
 
 /*bouton*/
@@ -267,8 +263,7 @@ button {
 
 /*card*/
 /*card*/
-/*responsive*/
-/*responsive*/
+
 
 /*footer*/
 .container {

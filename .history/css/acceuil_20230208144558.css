@@ -160,8 +160,12 @@ input[type="checkbox"] {
     padding: 18px;
     gap: 15px;
     scrollbar-width: none;
+    width: auto;
+    overflow-y: hidden;
     overflow-x: scroll;
     display: flex;
+    align-items: stretch;
+    scroll-snap-type: x mandatory;
 }
 
 .title_offre h2 {

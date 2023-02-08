@@ -161,7 +161,7 @@ input[type="checkbox"] {
   border-radius: 8px;
 }
 .img {
-  width: auto;
+  width: ;
 }
 .description {
   padding: 0 2%;
@@ -246,11 +246,7 @@ input {
   color: white;
   font-size: 16px;
 }
-/*responsive*/
-@media(max-width: 976px) {
- 
-}
-/*responsive*/
+
 /*details*/
 
 /*bouton*/
