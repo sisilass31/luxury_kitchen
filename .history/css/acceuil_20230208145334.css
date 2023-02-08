@@ -157,7 +157,7 @@ input[type="checkbox"] {
 
 /*offre*/
 .nos_offres {
-    padding: 26px;
+    padding: 18px;
     gap: 15px;
     scrollbar-width: none;
     overflow-x: scroll;
@@ -166,10 +166,10 @@ input[type="checkbox"] {
 
 .title_offre h2 {
     font-weight: 400;
-    font-size: 19px;
+    font-size: 20px;
     line-height: 23px;
     letter-spacing: 0.02em;
-    padding: 40px 0 0px 26px;
+    padding: 40px 0 12px 18px;
 }
 
 /*card*/
@@ -177,15 +177,12 @@ input[type="checkbox"] {
     display: flex;
     justify-content: center;
 }
-
 form {
     padding: 12px;
-}
-
-.descr_panier1 {
+    }
+    .descr_panier1 {
     padding: 12px;
-}
-
+    }
 .box-card {
     width: 330px;
     height: 295px;
@@ -228,12 +225,12 @@ button {
 /*bouton*/
 
 /*slide mini card*/
-.title_mini_card h2 {
+.title_mini_card h2{
     font-weight: 400;
-    font-size: 19px;
+    font-size: 20px;
     line-height: 23px;
     letter-spacing: 0.02em;
-    padding: 10px 0 0px 26px;
+    padding: 20px 0 0 18px;
 }
 
 .container1 {
@@ -241,7 +238,7 @@ button {
     overflow-x: scroll;
     display: flex;
     gap: 15px;
-    padding: 26px;
+    padding: 18px;
 }
 
 .container1::-webkit-scrollbar {

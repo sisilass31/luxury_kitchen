@@ -230,10 +230,10 @@ button {
 /*slide mini card*/
 .title_mini_card h2 {
     font-weight: 400;
-    font-size: 19px;
+    font-size: 20px;
     line-height: 23px;
     letter-spacing: 0.02em;
-    padding: 10px 0 0px 26px;
+    padding: 10px 0 10px 26px;
 }
 
 .container1 {
