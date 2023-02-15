@@ -184,6 +184,8 @@ nav .menu-btn i{
   padding-left: 15px;
   width: 520px;
   height: 64px;
+  display: flex;
+  justify-content: center;
 }
 
 form {
@@ -267,6 +269,10 @@ form {
     height: 41px;
     width: 144px;
   }
+  .condition label {
+    font-size: 12px;
+  }
+
 }
 
 

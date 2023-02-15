@@ -163,8 +163,50 @@ font-size: 20px;
 margin-left: 190px;
 }
 
+@media (max-width:500px) {
+img {
+  width: 300px;
+}
 
+h1{
+ font-size: 20px;
+ text-align: center;
+} 
 
+p.p5{
+  font-size: 15px;
+}
+
+input {
+  width: 150px;
+height: 34px;
+font-size: 10px;
+margin-left: 140px;
+}
+
+}
+
+@media screen and (min-width:501px) and (max-width:991px){
+  img {
+    width: 400px;
+  }
+  
+  h1{
+   font-size: 25px;
+   text-align: center;
+  } 
+  
+  p.p5{
+    font-size: 20px;
+  }
+  
+  input {
+    width: 200px;
+  height: 34px;
+  font-size: 15px;
+  margin-left: 150px;
+  }
+}
 
 
 
