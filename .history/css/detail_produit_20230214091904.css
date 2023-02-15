@@ -438,10 +438,8 @@ footer {
     width: 100%;
   }
 }
-@media screen and (max-width: 765px){
-  .box {
-    flex-direction: column;
-  }
+@media screen and {
+  
 }
 /*responsive*/
 /*footer*/

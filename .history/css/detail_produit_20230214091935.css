@@ -440,6 +440,9 @@ footer {
 }
 @media screen and (max-width: 765px){
   .box {
+    display: flex;
+    justify-content: center;
+    margin: 2%;
     flex-direction: column;
   }
 }

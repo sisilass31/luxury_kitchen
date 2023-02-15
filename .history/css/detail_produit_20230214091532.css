@@ -433,15 +433,11 @@ footer {
     width: 100%;
   }
 }
-@media(max-width: 1280px) {
+@media(max-width: 574px) {
   .footer-col {
     width: 100%;
   }
 }
-@media screen and (max-width: 765px){
-  .box {
-    flex-direction: column;
-  }
-}
+
 /*responsive*/
 /*footer*/

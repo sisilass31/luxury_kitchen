@@ -148,6 +148,27 @@ input[type="checkbox"] {
 
 /*navbar*/
 
+/*bouton*/
+button {
+    background: linear-gradient(#E02B1A, #930D00);
+    border: none;
+    border-radius: 16px;
+    width: 200px;
+    height: 38px;
+    color: white;
+    font-size: 16px;
+}
+
+.botton {
+    display: flex;
+    justify-content: center;
+    padding-top: 5%;
+}
+.ajout_au_panier {
+    padding-right: 12%;
+}
+/*bouton*/
+
 /*footer*/
 .container {
     max-width: 1170px;
