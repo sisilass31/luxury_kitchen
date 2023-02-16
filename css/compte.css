@@ -284,6 +284,91 @@ border-radius: 5px;
 font-size: 18px;
 
 }
+/*slide mini card*/
+.title_mini_card h2 {
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 23px;
+  letter-spacing: 0.02em;
+  padding: 10px 0 0px 26px;
+}
+
+.container1 {
+  scrollbar-width: none;
+  overflow-x: scroll;
+  display: flex;
+  gap: 15px;
+  padding: 26px;
+}
+
+.container1::-webkit-scrollbar {
+  display: none;
+}
+
+
+.container1 .mini_card .content {
+  position: absolute;
+  bottom: 10px;
+  padding: 20px;
+  page-break-after: 20px;
+  text-align: center;
+}
+
+button {
+  background: #E02B1A;
+  border: none;
+  border-radius: 5px;
+  width: 135px;
+  height: 25px;
+  font-size: 13px;
+  color: white;
+}
+
+.mini_card {
+  width: 100%;
+  background-color: #595959;
+  border-radius: 8px;
+  color: #fff;
+  margin: auto;
+}
+
+.img_mini_card {
+  width: 235px;
+}
+
+.mini_card img {
+  width: 100%;
+  border-radius: 8px 8px 0 0;
+}
+
+.descr_panier {
+  padding: 4%;
+}
+
+.p_botton {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-size: 14px;
+  line-height: 18px;
+  color: #FFFFFF;
+}
+
+.prix {
+  display: flex;
+  align-items: center;
+}
+
+.panier_prix {
+  display: flex;
+  justify-content: space-between;
+  padding: 5% 0 3% 0;
+}
+
+.prix_panier p {
+  font-size: 17px;
+}
+
+/*slide mini card*/
 
 /* footer */
 footer {
