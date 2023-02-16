@@ -279,7 +279,7 @@ input {
     transition: opacity 500ms;
     visibility: hidden;
     opacity: 0;
-    overflow-y: scroll;
+    overflow-y: scr;
 }
 
 .overlay:target {
@@ -701,4 +701,3 @@ button {
     }
 
 }
-

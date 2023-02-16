@@ -26,7 +26,7 @@ nav {
     background: linear-gradient(#E02B1A, #930D00);
     align-items: center;
     justify-content: space-between;
-padding: 0 50px 0 3%;
+    padding: 0 50px 0 3%;
     flex-wrap: wrap;
 }
 
@@ -152,7 +152,133 @@ input[type="checkbox"] {
 }
 
 /*navbar*/
+/*sidebar*/
+.overlay_sidebar {
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    transition: opacity 500ms;
+    visibility: hidden;
+    opacity: 0;
+    
+}
 
+.overlay_sidebar:target {
+    visibility: visible;
+    opacity: 1;
+}
+
+.close_botton {
+    position: absolute;
+    transition: all 200ms;
+    text-decoration: none;
+    color: #333;
+    top: 4px;
+    right: 45px;
+    font-size: 50px;
+    font-weight: 300;
+}
+
+
+.side_link {
+    margin-top: 15%;
+}
+
+.box_sidebar {
+    display: flex;
+    justify-content: flex-end;
+    height: 100%;
+}
+
+.side_bar {
+    background-color: #C81100;
+    width: 322px;
+    position: absolute;
+    top: 0px;
+}
+
+.side_bar a {
+    color: #fff;
+}
+
+.side_content {
+    margin-left: 15%;
+}
+
+.side_ul li {
+    margin-bottom: 35px;
+    font-size: 22px;
+    line-height: 27px;
+    letter-spacing: 0.02em;
+  }
+.side_content {
+    padding-top: 30px;
+}
+
+.membre p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: 0.02em;
+    color: rgba(255, 255, 255, 0.63);
+    margin-bottom: 10%;
+}
+
+.botton_sidebar {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10%;
+}
+
+.botton_sidebar2 button {
+    margin: 5% 0;
+    background: #1E1E1E;
+    border: none;
+    border-radius: 20px;
+    width: 200px;
+    height: 40px;
+    color: white;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: 0.02em;
+}
+
+.botton_sidebar3 button {
+    margin: 5% 0;
+    background: #1E1E1E1E;
+    border: solid #fff 2px;
+    border-radius: 20px;
+    width: 200px;
+    height: 40px;
+    color: white;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: 0.02em;
+}
+
+.roww {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.roww p {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+    letter-spacing: 0.02em;
+    margin-left: 15px;
+}
+
+.reseaux_sidebar {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 40px 40px 40px 0;
+}
+
+/*sidebar*/
 /*main*/
 
 /*offre*/

@@ -7,17 +7,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css"
         href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" />
+    <script src="https://code.iconify.design/iconify-icon/1.0.3/iconify-icon.min.js"></script>
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
     <link rel="stylesheet" href="../css/acceuil.css">
     <title>Luxury Kitchen</title>
 </head>
 
 <body>
     <nav>
-        <div class="logo"><a href="../html/acceuil.html">Luxury kitchen</a></div>
-        <input type="checkbox" id="click">
-
+        <div class="logo"><a href="#">Luxury kitchen</a></div>
         <ul>
+            <li><a href="../html/poêle.html" class="nav-link">Poêles</a></li>
             <li><a href="../html/poêle.html" class="nav-link">Poêles</a></li>
             <li><a href="../html/verres.html" class="nav-link">Verres</a></li>
             <li><a href="../html/accessoires.html" class="nav-link">Accessoires</a></li>
@@ -36,11 +37,76 @@
                 </div>
             </div>
             <label for="click" class="menu-btn">
-                <i class="fas fa-bars"></i>
+                <a href="#popup_sidebar"><i class="fas fa-bars"></i></a>
             </label>
         </div>
+
     </nav>
     <main>
+        <!--sidebar-->
+        <div id="popup_sidebar" class="overlay_sidebar">
+            <div class="box_sidebar">
+                <div class="side_bar">
+                    <div class="side_content">
+                        <div class="close_botton">
+                            <a class="close" href="#">&times;</a>
+                        </div>
+                        <div class="side_link">
+                            <ul class="side_ul">
+                                <li><a href="../html/poêle.html" class="nav-link-side">Poêles</a></li>
+                                <li><a href="../html/poêle.html" class="nav-link-side">Poêles</a></li>
+                                <li><a href="../html/verres.html" class="nav-link-side">Verres</a></li>
+                                <li><a href="../html/accessoires.html" class="nav-link-side">Accessoires</a></li>
+                                <li><a href="../html/couverts.html" class="nav-link-side">Couverts</a></li>
+                                <li><a href="../html/assiettes.html" class="nav-link-side">Assiettes</a></li>
+                                <li><a href="../html/moules_et_plaques.html" class="nav-link-side">Moules et plaques</a></li>
+                            </ul>
+                        </div>
+                        <div class="membre">
+                            <p>Devenez membre pour accéder au meilleur des produits.</p>
+                        </div>
+                        <div class="botton_sidebar">
+                            <div class="botton_sidebar2">
+                                <a href="../html/panier.html">
+                                    <button type="button" class="btn-black">Nous rejoindre</button>
+                                </a>
+                            </div>
+                            <div class="botton_sidebar3">
+                                <a href="#">
+                                    <button type="button" class="btn-black">s'identifier</button>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="icon_sidebar">
+                            <div class="roww">
+                                <box-icon name='shopping-bag' color='#ffffff' size='1.7rem'></box-icon>
+                                <p>Panier</p>
+                            </div>
+                            <div class="roww">
+                                <box-icon type='solid' name='package' color='#ffffff' size='1.7rem'></box-icon>
+                                <p>Commande</p>
+                            </div>
+                            <div class="roww">
+                                <box-icon name='user-circle' type='solid' color='#ffffff' size='1.7rem'></box-icon>
+                                <p>Mon profil</p>
+                            </div>
+                        </div>
+                        <div class="reseaux_sidebar">
+                            <div class="sociaux">
+                                <box-icon name='facebook-circle' type='logo' color='#ffffff'></box-icon>
+                            </div>
+                            <div class="sociaux">
+                                <box-icon name='twitter' type='logo' color='#ffffff'></box-icon>
+                            </div>
+                            <div class="sociaux">
+                                <box-icon name='instagram-alt' type='logo' color='#ffffff'></box-icon>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--sidebar-->
         <!--découvrir nos offres-->
         <div class="box_decouvrir">
             <div class="title_offre">
