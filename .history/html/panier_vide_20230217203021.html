@@ -10,7 +10,7 @@
     <script src="https://code.iconify.design/iconify-icon/1.0.3/iconify-icon.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" />
     <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
-    <link rel="stylesheet" href="../css/panier.css">
+    <link rel="stylesheet" href="../css/">
     <title>Panier</title>
 </head>
 
@@ -66,12 +66,12 @@
                         </div>
                         <div class="botton_sidebar">
                             <div class="botton_sidebar2">
-                                <a href="../html/inscrire.html">
+                                <a href="#">
                                     <button type="button" class="btn-black">Nous rejoindre</button>
                                 </a>
                             </div>
                             <div class="botton_sidebar3">
-                                <a href="../html/se-connecter.html">
+                                <a href="#">
                                     <button type="button" class="btn-black">s'identifier</button>
                                 </a>
                             </div>
@@ -118,155 +118,28 @@
             </div>
         </div>
         <!--sidebar-->
-        <div class="container">
-
-            <div class="gauche">
-                <div class="title_panier">
-                    <h2>mon panier</h2>
-                </div>
-                <div class="container_card">
-                    <div class="img_container">
-                        <img src="../img/poêle/poele1.jpg" alt="idk">
-                    </div>
-                    <div class="text_icon">
-                        <div class="text">
-                            <p>Poêle à manche amovible</p>
-                        </div>
-                        <div class="icon_prix">
-                            <div class="icon">
-                                <div class="pen">
-                                    <iconify-icon icon="la:pen" style="color: white;" width="25"></iconify-icon>
-                                </div>
-                                <div class="garbage">
-                                    <iconify-icon icon="material-symbols:delete-outline-rounded" style="color: white;"
-                                        width="25"></iconify-icon>
-                                </div>
-                            </div>
-                            <div class="price">
-                                <p>55,00€</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="container_card">
-                    <div class="img_container">
-                        <img src="../img/accessoire/accessoire1.png" alt="idk">
-                    </div>
-                    <div class="text_icon">
-                        <div class="text">
-                            <p>Ensemble d’ustensiles</p>
-                        </div>
-                        <div class="icon_prix">
-                            <div class="icon">
-                                <div class="pen">
-                                    <iconify-icon icon="la:pen" style="color: white;" width="25"></iconify-icon>
-                                </div>
-                                <div class="garbage">
-                                    <iconify-icon icon="material-symbols:delete-outline-rounded" style="color: white;"
-                                        width="25"></iconify-icon>
-                                </div>
-                            </div>
-                            <div class="price">
-                                <p>21,99€</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="container_card">
-                    <div class="img_container">
-                        <img src="../img/couverts/couvert2.png" alt="idk">
-                    </div>
-                    <div class="text_icon">
-                        <div class="text">
-                            <p>8 pièces couverts en acier</p>
-                        </div>
-                        <div class="icon_prix">
-                            <div class="icon">
-                                <div class="pen">
-                                    <iconify-icon icon="la:pen" style="color: white;" width="25"></iconify-icon>
-                                </div>
-                                <div class="garbage">
-                                    <iconify-icon icon="material-symbols:delete-outline-rounded" style="color: white;"
-                                        width="25"></iconify-icon>
-                                </div>
-                            </div>
-                            <div class="price">
-                                <p>8,50€</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="responsive_total">
-                    <hr>
-                    <div class="total">
-                        <div class="text_total">
-                            <p>total</p>
-                        </div>
-                        <div class="prix_total">
-                            <p>85,49€</p>
-                        </div>
-                    </div>
-                    <div class="paiement2">
-                        <form action="#">
-                            <a href="#">
-                                <button type="submit">
-                                    <p class="p_botton">paiement</p>
-                                </button>
-                            </a>
-                        </form>
-                    </div>
-                </div>
+        <div class="title">
+            <p>mon panier</p>
+        </div>
+        <div class="all">
+            <div class="image">
+                <img src="../img/other/panier_vide.png" alt="panier vide">
             </div>
-            <div class="droite">
-                <div class="title_produits">
-                    produits
-                </div>
-                <div class="box_produit">
-                    <div class="produit">
-                        <div class="text_produit">Poêle à manche amovible</div>
-                        <div class="prix_produits">55,00€</div>
-                    </div>
-                    <div class="produit">
-                        <div class="text_produit">Ensemble d’ustensiles</div>
-                        <div class="prix_produits">21,99€</div>
-                    </div>
-                    <div class="produit">
-                        <div class="text_produit">8 pièces couverts en acier</div>
-                        <div class="prix_produits">8,50€</div>
-                    </div>
-                </div>
-                <div class="livraison_prix">
-                    <div class="text_livraison">
-                        <p>Livraison</p>
-                    </div>
-                    <div class="prix_livraison">
-                        <p>00,00€</p>
-                    </div>
-                </div>
-                <hr>
-                <div class="total">
-                    <div class="text_total">
-                        <p>total</p>
-                    </div>
-                    <div class="prix_total">
-                        <p>85,49€</p>
-                    </div>
-                </div>
-                <div class="paiement2">
-                    <form action="#">
-                        <a href="#">
-                            <button type="submit">
-                                <p class="p_botton">paiement</p>
-                            </button>
-                        </a>
-                    </form>
-                </div>
+            <div class="title_panier_vide">
+                <h3>Panier vide</h3>
             </div>
-
+            <div class="text">
+                <p>Ton panier est encore vide, découvre <br> tout ce que nous avons pour toi</p>
+            </div>
+            <div class="botton">
+                <form action="#">
+                    <a href="#" class="découvrir"><button type="submit">découvrir</button></a>
+                </form>
+            </div>
         </div>
     </main>
     <footer>
-        <div class="container_footer">
+        <div class="container">
             <div class="row">
                 <div class="footer-col" id="infos">
                     <h4>Contact Information</h4>

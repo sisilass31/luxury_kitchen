@@ -238,219 +238,221 @@ button {
 
 /*sidebar*/
 
-/*main*/
-.container {
+/*sign*/
+.overlay_sign {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    transition: opacity 500ms;
+    visibility: hidden;
+    opacity: 0;
+}
+
+.overlay_sign:target {
+    visibility: visible;
+    opacity: 1;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.client_start {
     display: flex;
-    margin: 3%;
+    justify-content: center;
 }
 
-.container_card {
-    display: flex;
-    margin-top: 4%;
+.commencez-ici a {
+    color: #E02B1A;
+    margin-left: 5px;
 }
 
-/*gauche*/
-.img_container {
-    width: 30%;
-}
-
-.img_container img {
-    width: 100%;
+.content_sign {
+    background-color: #595959;
+    width: 300px;
+    height: 90px;
     border-radius: 8px;
 }
 
-.icon {
-    display: flex;
-}
-
-.icon_prix {
-    display: flex;
-    align-items: end;
-    justify-content: space-between;
-}
-
-.text_icon {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    margin: 0 0 2% 4%;
-    width: 50%;
-}
-
-.text p {
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 29px;
-    letter-spacing: 0.02em;
-}
-
-.title_panier h2 {
-    font-weight: 500;
-    font-size: 22px;
-    line-height: 27px;
-    letter-spacing: 0.02em;
-    text-transform: uppercase;
-}
-
-.price p {
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 29px;
-    letter-spacing: 0.02em;
-}
-
-.garbage {
-    margin-left: 100%;
-}
-
-/*gauche*/
-/*droite*/
-.droite {
-    background-color: #5959596e;
-    width: 35%;
-    border-radius: 5px;
-    padding: 25px;
-    height: 100%;
-    margin-top: 4%;
-}
-
-.title_produits {
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 20px;
-    letter-spacing: 0.02em;
-    text-transform: uppercase;
-}
-
-.produit {
-    display: flex;
-    justify-content: space-between;
-    margin-top: 5%;
-    font-weight: 300;
-    font-size: 16px;
-    line-height: 23px;
-    letter-spacing: 0.02em;
-}
-
-.total {
-    display: flex;
-    justify-content: space-between;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 20px;
-    letter-spacing: 0.02em;
-    text-transform: uppercase;
-    margin-top: 10%;
-}
-
-hr {
-    width: 100%;
+.botton_sign {
     display: flex;
     justify-content: center;
-    height: 2.5px;
-    background-color: #ffffff8c;
-    margin-top: 5%;
+    padding: 5%;
 }
 
+.popup_sign {
+    display: flex;
+    justify-content: end;
+    margin-right: 80px;
+    margin-top: 60px;
+}
+
+/*sign*/
+
+/*offre*/
+.nos_offres {
+    padding: 26px;
+    gap: 15px;
+    scrollbar-width: none;
+    overflow-x: scroll;
+    display: flex;
+}
+
+.title_offre h2 {
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 23px;
+    letter-spacing: 0.02em;
+    padding: 40px 0 0px 26px;
+}
+
+/*card*/
+.ajout_panier form {
+    display: flex;
+    justify-content: center;
+    padding: 12px;
+}
+
+
+.descr_panier1 {
+    padding: 12px;
+}
+
+.box-card {
+    width: 330px;
+    height: 295px;
+}
+
+.card {
+    width: 100%;
+    height: 100%;
+    background-color: #595959;
+    border-radius: 8px;
+}
+
+.card img {
+    width: 330px;
+    height: 200px;
+    border-radius: 8px 8px 0 0;
+    object-fit: cover;
+}
+
+.text_panier {
+    display: flex;
+    justify-content: center;
+    font-size: 15px;
+    line-height: 18px;
+    letter-spacing: 0.02em;
+}
+
+/*card*/
+
+/*bouton*/
 button {
-    background: linear-gradient(#E02B1A, #930D00);
+    background: #E02B1A;
     border: none;
     border-radius: 5px;
     width: 135px;
-    height: 30px;
+    height: 25px;
     color: white;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
-    letter-spacing: 0.02em;
-    text-transform: uppercase;
-    cursor: pointer;
 }
 
-.livraison_prix {
-    display: flex;
-    justify-content: space-between;
-    margin-top: 5%;
-    font-weight: 300;
-    font-size: 16px;
+/*bouton*/
+
+/*slide mini card*/
+.title_mini_card h2 {
+    font-weight: 400;
+    font-size: 19px;
     line-height: 23px;
     letter-spacing: 0.02em;
+    padding: 10px 0 0px 26px;
 }
 
-.paiement2 {
+.container1 {
+    scrollbar-width: none;
+    overflow-x: scroll;
     display: flex;
-    justify-content: center;
-    margin-top: 10%;
+    gap: 15px;
+    padding: 26px;
 }
 
-.responsive_total {
+.container1::-webkit-scrollbar {
     display: none;
 }
 
-/*droite*/
-/* Mobile */
-@media (max-width:767px) {
-    .droite {
-        display: none;
-    }
 
-    .responsive_total {
-        display: flex;
-        flex-direction: column;
-    }
-
-    .total {
-        margin-top: 4%;
-    }
-
-    .paiement2 {
-        margin-top: 3%;
-    }
+.container1 .mini_card .content {
+    position: absolute;
+    bottom: 10px;
+    padding: 20px;
+    page-break-after: 20px;
+    text-align: center;
 }
 
-/* Ipad Mini to ipad */
-@media screen and (min-width:768px) and (max-width:991px) {
-    .droite {
-        display: none;
-    }
-
-    .responsive_total {
-        display: flex;
-        flex-direction: column;
-    }
-
-    .total {
-        margin-top: 4%;
-    }
-
-    .paiement2 {
-        margin-top: 3%;
-    }
+.ajout_panier button {
+    background: #E02B1A;
+    border: none;
+    border-radius: 5px;
+    width: 135px;
+    height: 25px;
+    font-size: 13px;
+    color: white;
 }
 
-/* Ipad et Mini Ordi */
-@media screen and (min-width:992px) and (max-width:1199px) {
-    .droite {
-        display: none;
-    }
-
-    .responsive_total {
-        display: flex;
-        flex-direction: column;
-    }
-
-    .total {
-        margin-top: 4%;
-    }
-
-    .paiement2 {
-        margin-top: 3%;
-    }
+.mini_card {
+    width: 100%;
+    background-color: #595959;
+    border-radius: 8px;
+    color: #fff;
+    margin: auto;
 }
 
+.img_mini_card {
+    width: 235px;
+}
+
+.mini_card img {
+    width: 100%;
+    border-radius: 8px 8px 0 0;
+}
+
+.descr_panier {
+    padding: 4%;
+}
+
+.text_panier p {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-size: 14px;
+    line-height: 18px;
+    color: #FFFFFF;
+}
+
+.prix {
+    display: flex;
+    align-items: center;
+}
+
+.panier_prix {
+    display: flex;
+    justify-content: space-between;
+    padding: 5% 0 3% 0;
+}
+
+.prix_panier p {
+    font-size: 17px;
+}
+
+/*slide mini card*/
 /*main*/
+
 /*footer*/
-.container_footer {
+.container {
     max-width: 1170px;
     margin: auto;
 }
@@ -466,10 +468,10 @@ ul {
     list-style: none;
 }
 
-footer {
+.footer {
     background-color: #121212;
+    padding: 70px 0;
 }
-
 
 .app {
     display: flex;
@@ -534,15 +536,8 @@ footer {
     color: #FFF;
 }
 
-/*paiement*/
-.icon_paiement {
-    margin-right: 30px;
-}
-
-.logo_paiement {
-    display: flex;
-    justify-content: center;
-    padding-top: 25px;
+.img_paiement img {
+    width: 140px;
 }
 
 .paiement {
@@ -554,12 +549,8 @@ footer {
 
 .paiement p {
     text-transform: uppercase;
-    display: flex;
-    justify-content: center;
 }
 
-/*paiement*/
-/*swipe*/
 .grp_swipe {
     display: flex;
     justify-content: center;
@@ -582,7 +573,6 @@ footer {
     justify-content: center;
 }
 
-/*swipe*/
 /*responsive*/
 @media(max-width: 976px) {
     .footer-col {
@@ -614,5 +604,4 @@ footer {
 }
 
 /*responsive*/
-
 /*footer*/

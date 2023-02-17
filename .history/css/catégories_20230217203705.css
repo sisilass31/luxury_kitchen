@@ -122,11 +122,11 @@ button {
     visibility: visible;
     opacity: 1;
     overflow-y: scroll;
-    scrollbar-width: none;
-    z-index: 1;
+        scrollbar-width: none;
+        z-index: 1;
 }
 
-.close_botton a {
+.close_botton a{
     position: absolute;
     transition: all 200ms;
     text-decoration: none;
@@ -168,8 +168,7 @@ button {
     font-size: 22px;
     line-height: 27px;
     letter-spacing: 0.02em;
-}
-
+  }
 .side_content {
     padding-top: 30px;
 }
@@ -237,223 +236,234 @@ button {
 }
 
 /*sidebar*/
-
-/*main*/
+/*______________________________________________________________________*/
+/*card*/
 .container {
+    padding: 20px;
     display: flex;
-    margin: 3%;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
 }
-
-.container_card {
-    display: flex;
-    margin-top: 4%;
-}
-
-/*gauche*/
-.img_container {
-    width: 30%;
-}
-
-.img_container img {
-    width: 100%;
-    border-radius: 8px;
-}
-
-.icon {
-    display: flex;
-}
-
-.icon_prix {
-    display: flex;
-    align-items: end;
-    justify-content: space-between;
-}
-
-.text_icon {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    margin: 0 0 2% 4%;
-    width: 50%;
-}
-
-.text p {
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 29px;
-    letter-spacing: 0.02em;
-}
-
-.title_panier h2 {
-    font-weight: 500;
-    font-size: 22px;
-    line-height: 27px;
-    letter-spacing: 0.02em;
-    text-transform: uppercase;
-}
-
-.price p {
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 29px;
-    letter-spacing: 0.02em;
-}
-
-.garbage {
-    margin-left: 100%;
-}
-
-/*gauche*/
-/*droite*/
-.droite {
-    background-color: #5959596e;
-    width: 35%;
-    border-radius: 5px;
-    padding: 25px;
-    height: 100%;
-    margin-top: 4%;
-}
-
-.title_produits {
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 20px;
-    letter-spacing: 0.02em;
-    text-transform: uppercase;
-}
-
-.produit {
-    display: flex;
-    justify-content: space-between;
-    margin-top: 5%;
-    font-weight: 300;
-    font-size: 16px;
-    line-height: 23px;
-    letter-spacing: 0.02em;
-}
-
-.total {
-    display: flex;
-    justify-content: space-between;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 20px;
-    letter-spacing: 0.02em;
-    text-transform: uppercase;
-    margin-top: 10%;
-}
-
-hr {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    height: 2.5px;
-    background-color: #ffffff8c;
-    margin-top: 5%;
-}
-
 button {
-    background: linear-gradient(#E02B1A, #930D00);
+    background: #E02B1A;
     border: none;
     border-radius: 5px;
     width: 135px;
-    height: 30px;
+    height: 25px;
     color: white;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
-    letter-spacing: 0.02em;
-    text-transform: uppercase;
-    cursor: pointer;
 }
 
-.livraison_prix {
-    display: flex;
-    justify-content: space-between;
-    margin-top: 5%;
-    font-weight: 300;
-    font-size: 16px;
-    line-height: 23px;
-    letter-spacing: 0.02em;
+.container .card {
+    background: #fff;
+    border-radius: 20px;
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.2);
+    transition: 0.5s;
+    margin-top: 14px;
 }
 
-.paiement2 {
-    display: flex;
-    justify-content: center;
-    margin-top: 10%;
+.container .card {
+    background-color: #595959;
+    border-radius: 8px;
+    color: #fff;
 }
 
-.responsive_total {
+.container .card .content {
+    position: absolute;
+    bottom: 10px;
+    padding: 20px;
+    page-break-after: 20px;
+    text-align: center;
+}
+
+.card {
+    width: 24%;
+    background-color: #595959;
+    border-radius: 8px;
+}
+
+.card img {
+    width: 100%;
+    border-radius: 8px 8px 0 0;
+}
+.card2 {
     display: none;
 }
+/*hover*/
+.container .card:hover {
+    transform: scale(1.02);
+    opacity: 1;
+}
+/*hover*/
 
-/*droite*/
-/* Mobile */
-@media (max-width:767px) {
-    .droite {
+.descr_panier {
+    padding: 4%;
+}
+
+.text_panier p {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+}
+
+.prix {
+    display: flex;
+    align-items: center;
+}
+
+.panier_prix {
+    display: flex;
+    justify-content: space-between;
+    padding: 5% 0 3% 0;
+}
+
+.prix_panier p {
+    font-size: 20px;
+    margin-right: 8px;
+}
+
+/*card*/
+#card2 {
+    display: none;
+}
+/*responsive*/
+@media (max-width: 585px) {
+    .card {
+        width: 45%;
+    }
+
+    .text_panier p {
+        font-size: 10px;
+    }
+
+    .prix_panier p {
+        font-size: 17px;
+    }
+
+    button {
+        background: #E02B1A;
+        border: none;
+        border-radius: 5px;
+        width: 135px;
+        height: 25px;
+        color: white;
+        font-size: 14px;
+    }
+
+    .container {
+        padding: 10px 10px 25px 10px;
+    }
+    #card2 {
         display: none;
     }
-
-    .responsive_total {
-        display: flex;
-        flex-direction: column;
+}
+@media (min-width: 585px) {
+    .card {
+        width: 45%;
     }
 
-    .total {
-        margin-top: 4%;
+    .text_panier p {
+        font-size: 16px;
     }
 
-    .paiement2 {
-        margin-top: 3%;
+    .prix_panier p {
+        font-size: 17px;
+    }
+
+    button {
+        background: #E02B1A;
+        border: none;
+        border-radius: 5px;
+        width: 135px;
+        height: 25px;
+        color: white;
+        font-size: 14px;
+    }
+
+    .container {
+        padding: 10px 10px 25px 10px;
+    }
+    #card2 {
+        display: none;
     }
 }
 
-/* Ipad Mini to ipad */
-@media screen and (min-width:768px) and (max-width:991px) {
-    .droite {
+@media (max-width: 635px) {
+    .card {
+        width: 45%;
+    }
+
+    .prix_panier p {
+        font-size: 15px;
+    }
+
+    button {
+        background: #E02B1A;
+        border: none;
+        border-radius: 5px;
+        width: 100px;
+        height: 22px;
+        color: white;
+        font-size: 10px;
+    }
+
+    .container {
+        padding: 10px;
+    }
+    #card2 {
         display: none;
     }
 
-    .responsive_total {
-        display: flex;
-        flex-direction: column;
-    }
-
-    .total {
-        margin-top: 4%;
-    }
-
-    .paiement2 {
-        margin-top: 3%;
-    }
 }
 
-/* Ipad et Mini Ordi */
-@media screen and (min-width:992px) and (max-width:1199px) {
-    .droite {
+@media (min-width: 832px) {
+    .card {
+        width: 30%;
+    }
+
+    .text_panier p {
+        font-size: 15px;
+    }
+
+    .prix_panier p {
+        font-size: 20px;
+    }
+    /*_________________*/
+    #card2 {
+        display: grid;
+    }
+    
+}
+
+@media (min-width: 1035px) {
+    .card {
+        width: 24%;
+    }
+
+    .text_panier p {
+        font-size: 15px;
+    }
+
+    .prix_panier p {
+        font-size: 20px;
+    }
+    #card2 {
         display: none;
     }
-
-    .responsive_total {
-        display: flex;
-        flex-direction: column;
-    }
-
-    .total {
-        margin-top: 4%;
-    }
-
-    .paiement2 {
-        margin-top: 3%;
-    }
 }
 
-/*main*/
+/*responsive*/
+/*______________________________________________________________________*/
 /*footer*/
-.container_footer {
-    max-width: 1170px;
-    margin: auto;
+footer {
+    background-color: #121212;
+    color: white;
 }
+
 
 .row {
     display: flex;
@@ -466,10 +476,11 @@ ul {
     list-style: none;
 }
 
-footer {
+.footer {
     background-color: #121212;
+    padding: 70px 0;
+    margin-top: 80px;
 }
-
 
 .app {
     display: flex;
@@ -614,5 +625,4 @@ footer {
 }
 
 /*responsive*/
-
 /*footer*/

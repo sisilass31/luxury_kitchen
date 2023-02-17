@@ -122,11 +122,11 @@ button {
     visibility: visible;
     opacity: 1;
     overflow-y: scroll;
-    scrollbar-width: none;
-    z-index: 1;
+        scrollbar-width: none;
+        z-index: 1;
 }
 
-.close_botton a {
+.close_botton a{
     position: absolute;
     transition: all 200ms;
     text-decoration: none;
@@ -168,8 +168,7 @@ button {
     font-size: 22px;
     line-height: 27px;
     letter-spacing: 0.02em;
-}
-
+  }
 .side_content {
     padding-top: 30px;
 }
@@ -402,7 +401,6 @@ button {
     .total {
         margin-top: 4%;
     }
-
     .paiement2 {
         margin-top: 3%;
     }
@@ -422,7 +420,6 @@ button {
     .total {
         margin-top: 4%;
     }
-
     .paiement2 {
         margin-top: 3%;
     }
@@ -442,7 +439,6 @@ button {
     .total {
         margin-top: 4%;
     }
-
     .paiement2 {
         margin-top: 3%;
     }
