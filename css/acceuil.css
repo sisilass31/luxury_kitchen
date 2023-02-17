@@ -198,6 +198,7 @@ button {
     font-size: 18px;
     line-height: 22px;
     letter-spacing: 0.02em;
+    text-transform: capitalize;
 }
 
 .botton_sidebar3 button {
@@ -211,6 +212,7 @@ button {
     font-size: 18px;
     line-height: 22px;
     letter-spacing: 0.02em;
+    text-transform: capitalize;
 }
 
 .roww {
@@ -256,7 +258,6 @@ button {
 a {
     text-decoration: none;
     color: white;
-    font-size: 16px;
     font-weight: 400;
 }
 
@@ -400,6 +401,7 @@ button {
     height: 25px;
     font-size: 13px;
     color: white;
+    cursor: pointer;
 }
 
 .mini_card {
@@ -451,8 +453,8 @@ button {
 
 /*footer*/
 .container {
-    max-width: 1170px;
     margin: auto;
+    background-color: #121212;
 }
 
 .row {

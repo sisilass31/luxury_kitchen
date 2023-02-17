@@ -189,6 +189,7 @@ nav .menu-btn i {
   font-size: 18px;
   line-height: 22px;
   letter-spacing: 0.02em;
+  text-transform: capitalize;
 }
 
 .botton_sidebar3 button {
@@ -202,6 +203,7 @@ nav .menu-btn i {
   font-size: 18px;
   line-height: 22px;
   letter-spacing: 0.02em;
+  text-transform: capitalize;
 }
 
 .roww {
@@ -429,9 +431,9 @@ nav .menu-btn i {
 
 @media screen and (min-width:761px) and (max-width:991px) {
   input[type="text"] {
-    width: 290px;
-    height: 56px;
-    font-size: 15px;
+    width: 520px;
+height: 64px;
+font-size: 20px;
   }
 
   button.btnblue {

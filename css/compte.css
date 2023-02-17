@@ -205,6 +205,7 @@ button {
   font-size: 18px;
   line-height: 22px;
   letter-spacing: 0.02em;
+  text-transform: capitalize;
 }
 
 .botton_sidebar3 button {
@@ -218,6 +219,7 @@ button {
   font-size: 18px;
   line-height: 22px;
   letter-spacing: 0.02em;
+  text-transform: capitalize;
 }
 
 .roww {
@@ -380,8 +382,8 @@ p.p6 {
   line-height: 22px;
   text-align: center;
   letter-spacing: 0.02em;
-
   color: rgba(255, 255, 255, 0.8);
+  margin: 6%;
 }
 
 p.bye::before {

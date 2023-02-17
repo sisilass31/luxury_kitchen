@@ -201,6 +201,7 @@ button {
   font-size: 18px;
   line-height: 22px;
   letter-spacing: 0.02em;
+  text-transform: capitalize;
 }
 
 .botton_sidebar3 button {
@@ -214,6 +215,7 @@ button {
   font-size: 18px;
   line-height: 22px;
   letter-spacing: 0.02em;
+  text-transform: capitalize;
 }
 
 .roww {
