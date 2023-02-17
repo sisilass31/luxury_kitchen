@@ -5,9 +5,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
     <script src="https://code.iconify.design/iconify-icon/1.0.3/iconify-icon.min.js"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="../css/compte.css">
     <title>Luxury Kitchen</title>
 </head>
@@ -16,18 +17,20 @@
     <!-- Navbar -->
     <nav>
         <div class="logo"><a href="#">Luxury kitchen</a></div>
+        <input type="checkbox" id="click">
+
         <ul>
-            <li><a href="../html/poêle.html" class="nav-link">Poêles</a></li>
-            <li><a href="../html/verres.html" class="nav-link">Verres</a></li>
-            <li><a href="../html/accessoires.html" class="nav-link">Accessoires</a></li>
-            <li><a href="../html/couverts.html" class="nav-link">Couverts</a></li>
-            <li><a href="../html/assiettes.html" class="nav-link">Assiettes</a></li>
-            <li><a href="../html/moules_et_plaques.html" class="nav-link">Moules et plaques</a></li>
+            <li><a href="#" class="nav-link">Poêles</a></li>
+            <li><a href="#" class="nav-link">Verres</a></li>
+            <li><a href="#" class="nav-link">Accessoires</a></li>
+            <li><a href="#" class="nav-link">Couverts</a></li>
+            <li><a href="#" class="nav-link">Assiettes</a></li>
+            <li><a href="#" class="nav-link">Moules et plaques</a></li>
         </ul>
         <div class="icon_navbar">
             <div class="icon">
                 <div class="icon_panier">
-                    <a href="../html/panier.html"><iconify-icon icon="ph:bag-simple" style="color: white;" width="25"></iconify-icon></a>
+                    <a href="#"><iconify-icon icon="ph:bag-simple" style="color: white;" width="25"></iconify-icon></a>
                 </div>
                 <div class="icon_account">
                     <a href="#"><iconify-icon icon="ic:sharp-account-circle" style="color: white;"
@@ -35,87 +38,11 @@
                 </div>
             </div>
             <label for="click" class="menu-btn">
-                <a href="#popup_sidebar"><i class="fas fa-bars"></i></a>
+                <i class="fas fa-bars"></i>
             </label>
         </div>
-
     </nav>
-    <main>
-        <!--sidebar-->
-        <div id="popup_sidebar" class="overlay_sidebar">
-            <div class="box_sidebar">
-                <div class="side_bar">
-                    <div class="side_content">
-                        <div class="close_botton">
-                            <a class="close" href="#">&times;</a>
-                        </div>
-                        <div class="side_link">
-                            <ul class="side_ul">
-                                <li><a href="../html/poêle.html" class="nav-link">Poêles</a></li>
-                                <li><a href="../html/verres.html" class="nav-link">Verres</a></li>
-                                <li><a href="../html/accessoires.html" class="nav-link">Accessoires</a></li>
-                                <li><a href="../html/couverts.html" class="nav-link">Couverts</a></li>
-                                <li><a href="../html/assiettes.html" class="nav-link">Assiettes</a></li>
-                                <li><a href="../html/moules_et_plaques.html" class="nav-link">Moules et plaques</a></li>
-                            </ul>
-                        </div>
-                        <div class="membre">
-                            <p>Devenez membre pour accéder au meilleur des produits.</p>
-                        </div>
-                        <div class="botton_sidebar">
-                            <div class="botton_sidebar2">
-                                <a href="../html/inscrire.html">
-                                    <button type="button" class="btn-black">Nous rejoindre</button>
-                                </a>
-                            </div>
-                            <div class="botton_sidebar3">
-                                <a href="../html/se-connecter.html">
-                                    <button type="button" class="btn-black">s'identifier</button>
-                                </a>
-                            </div>
-                        </div>
-                        <div class="icon_sidebar">
-                            <a href="../html/panier.html">
-                                <div class="roww">
-                                    <box-icon name='shopping-bag' color='#ffffff' size='1.7rem'></box-icon>
-                                    <p>Panier</p>
-                                </div>
-                            </a>
-                            <a href="#">
-                                <div class="roww">
-                                    <box-icon type='solid' name='package' color='#ffffff' size='1.7rem'></box-icon>
-                                    <p>Commande</p>
-                                </div>
-                            </a>
-                            <a href="#">
-                                <div class="roww">
-                                    <box-icon name='user-circle' type='solid' color='#ffffff' size='1.7rem'></box-icon>
-                                    <p>Mon profil</p>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="reseaux_sidebar">
-                            <a href="#">
-                                <div class="sociaux">
-                                    <box-icon name='facebook-circle' type='logo' color='#ffffff'></box-icon>
-                                </div>
-                            </a>
-                            <a href="#">
-                                <div class="sociaux">
-                                    <box-icon name='twitter' type='logo' color='#ffffff'></box-icon>
-                                </div>
-                            </a>
-                            <a href="#">
-                                <div class="sociaux">
-                                    <box-icon name='instagram-alt' type='logo' color='#ffffff'></box-icon>
-                                </div>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!--sidebar-->
+    <!-- Navbar -->
     <main>
         <div class="user">
             <div class="icones">
@@ -130,16 +57,14 @@
         <div class="texte2">
             <div class="parametre">
                 <div class="compte">
-                    <a href="compte.html">
-                        <p p class="bye">COMPTE</p>
-                    </a>
+                    <a href="compte.html"><p p class="bye">COMPTE</p> </a>
                 </div>
             </div>
             <a href="commande.html">
-                <p>COMMANDES</p>
+                <p >COMMANDES</p>
             </a>
             <a href="parametres.html">
-                <p>PARAMETRES</p>
+                <p >PARAMETRES</p>
             </a>
         </div>
         <hr>
