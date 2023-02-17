@@ -293,8 +293,11 @@ input {
 .overlay:target {
     visibility: visible;
     opacity: 1;
-    scrollbar-width: none;
+    #popup2 {
+        width: 100%;
+        scrollbar-width: none;
         overflow-x: scroll;
+    }
 }
 
 .content {

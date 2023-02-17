@@ -293,8 +293,6 @@ input {
 .overlay:target {
     visibility: visible;
     opacity: 1;
-    scrollbar-width: none;
-        overflow-x: scroll;
 }
 
 .content {
@@ -666,16 +664,6 @@ button {
         font-size: 20px;
     }
 
-    .box_button2 {
-        display: none;
-    }
-
-    .box_button {
-        display: flex;
-        justify-content: space-evenly;
-        margin: 35px;
-    }
-
 }
 
 @media (min-width: 1025px) {
@@ -943,7 +931,6 @@ button {
     .box_button {
         justify-content: space-evenly;
         margin: 5px;
-        
     }
 
     .botton_product {

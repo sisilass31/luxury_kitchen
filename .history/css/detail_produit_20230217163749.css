@@ -293,8 +293,6 @@ input {
 .overlay:target {
     visibility: visible;
     opacity: 1;
-    scrollbar-width: none;
-        overflow-x: scroll;
 }
 
 .content {
@@ -665,17 +663,6 @@ button {
     .prix_panier p {
         font-size: 20px;
     }
-
-    .box_button2 {
-        display: none;
-    }
-
-    .box_button {
-        display: flex;
-        justify-content: space-evenly;
-        margin: 35px;
-    }
-
 }
 
 @media (min-width: 1025px) {
@@ -867,6 +854,16 @@ button {
     .box_button2 {
         display: none;
     }
+    .box_button2 {
+        display: none;
+    }
+
+    .box_button {
+        display: flex;
+        justify-content: space-evenly;
+        margin: 35px;
+    }
+
 }
 
 @media screen and (min-width:635px) and (max-width:735px) {
@@ -943,7 +940,6 @@ button {
     .box_button {
         justify-content: space-evenly;
         margin: 5px;
-        
     }
 
     .botton_product {

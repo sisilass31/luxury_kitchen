@@ -293,8 +293,6 @@ input {
 .overlay:target {
     visibility: visible;
     opacity: 1;
-    scrollbar-width: none;
-        overflow-x: scroll;
 }
 
 .content {
@@ -405,7 +403,11 @@ input {
     scrollbar-width: none;
     overflow-x: scroll;
 }
+#popup2 {
 
+    scrollbar-width: none;
+    overflow-x: scroll;
+}
 .content2 {
     display: flex;
     margin-top: 20px;
@@ -943,7 +945,7 @@ button {
     .box_button {
         justify-content: space-evenly;
         margin: 5px;
-        
+        display: flex;
     }
 
     .botton_product {

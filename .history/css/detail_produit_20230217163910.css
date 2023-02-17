@@ -293,8 +293,6 @@ input {
 .overlay:target {
     visibility: visible;
     opacity: 1;
-    scrollbar-width: none;
-        overflow-x: scroll;
 }
 
 .content {
@@ -943,7 +941,6 @@ button {
     .box_button {
         justify-content: space-evenly;
         margin: 5px;
-        
     }
 
     .botton_product {
