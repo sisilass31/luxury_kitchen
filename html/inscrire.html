@@ -52,22 +52,22 @@
             <div class="grp_infos">
                 <div class="container_infos">
                     <div class="infos">
-                        <input type="text" placeholder="Nom">
+                        <input type="text" required pattern="[A-Za-z]{3,10}" placeholder="Nom">
                     </div>
                     <div class="infos">
-                        <input type="text" placeholder="Prénom">
+                        <input type="text" required pattern="[A-Za-z]{3,10}" placeholder="Prénom">
                     </div>
                     <div class="infos">
-                        <input type="text" placeholder="Numéro de téléphone">
+                        <input type="text" required pattern="[0-9]{3,10}"  placeholder="Numéro de téléphone">
                     </div>
                     <div class="infos">
-                        <input type="text" placeholder="Mail">
+                        <input type="email" placeholder="Mail">
                     </div>
                     <div class="infos">
-                        <input type="text" placeholder="Code postal">
+                        <input type="text" required pattern="[0-9]{5,5}" placeholder="Code postal">
                     </div>
                     <div class="infos">
-                        <input type="text" placeholder="Adresse">
+                        <input type="text" required pattern="[A-Za-z]{10,20}" placeholder="Adresse">
                     </div>
                 </div>
             </div>
@@ -82,7 +82,7 @@
                         </label>
                     </form>
                     <div class="button">
-                        <input type="submit" value="S'inscrire">
+                        <a href="compte.html"><input type="submit" value="S'inscrire"></a>
                     </div>
                 </div>
             </div>

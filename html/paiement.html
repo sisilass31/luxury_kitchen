@@ -53,31 +53,31 @@
                 <div class="infos">
                     <h2>Nom complet</h2>
                     <div class="input">
-                        <input type="text" placeholder="Esther Howard">
+                        <input type="text" required pattern="[A-Za-z]{3,10}" placeholder="Esther Howard">
                     </div>
                 </div>
                 <div class="infos">
                     <h2>Numéro de téléphone</h2>
                     <div class="input">
-                        <input type="text" placeholder="00 00 00 00 00">
+                        <input type="text" required pattern="[0-9]{3,10}" placeholder="00 00 00 00 00">
                     </div>
                 </div>
                 <div class="infos">
                     <h2>Adresse</h2>
                     <div class="input">
-                    <input type="text" placeholder="6391 Elgin St. Celina, Delaware 10299">
+                    <input type="text" required pattern="[A-Za-z]{3,10}" placeholder="6391 Elgin St. Celina, Delaware 10299">
                 </div>
                 </div>
                 <div class="infos">
                     <h2>Code postal</h2>
                     <div class="input">
-                    <input type="text" placeholder="00000">
+                    <input type="text"required pattern="[0-9]{5,5}" placeholder="00000">
                 </div>
                 </div>
                 <div class="infos">
                     <h2>Ville</h2>
                     <div class="input">
-                    <input type="text" placeholder="Los Angeles">
+                    <input type="text" required pattern="[A-Za-z]{3,10}" placeholder="Los Angeles">
                 </div>
                 </div>
                 <div class="text">
@@ -88,7 +88,7 @@
                         </label>
                     </form>
                     <div class="button">
-                        <input type="submit" value="Utiliser cette adresse">
+                        <a href="paiment2.html"><input type="submit" value="Utiliser cette adresse"></a>
                     </div>
                 </div>
             </div>

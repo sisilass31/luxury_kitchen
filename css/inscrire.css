@@ -230,7 +230,11 @@ form {
 
 
 @media (max-width:600px) {
-
+  input[type="email"] {
+    width: 290px;
+    height: 56px;
+    font-size: 15px;
+  }
   input[type="text"] {
     width: 290px;
     height: 56px;

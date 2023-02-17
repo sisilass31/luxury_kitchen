@@ -296,7 +296,11 @@ input[type="checkbox"] {
 
 
  @media (max-width:760px) {
-
+  input[type="password"] {
+    width: 290px;
+    height: 56px;
+    font-size: 15px;
+  }
   input[type="text"] {
     width: 290px;
     height: 56px;

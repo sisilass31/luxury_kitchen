@@ -161,12 +161,19 @@ input[type="checkbox"] {
 }
 
 .icones {
-  padding-left: 20px;
-  padding-top: 20px;
-
+  margin-left: 20px;
+  padding-top: 30px;
+  margin-right: 20px;
+}
+.fa-solid, .fas {
+  font-weight: 1;
 }
 
 
+.fa-5x {
+  font-size: 130px;
+
+}
 
 
 .texte1 {
@@ -347,6 +354,17 @@ h3 {
   p.bye::before{
     width: 100px;
   } 
+
+  .fa-5x {
+    font-size: 80px;
+  
+  }
+
+  .icones {
+    margin-left: 10px;
+    padding-top: 60px;
+    margin-right: 10px;
+  }
 }
 
 
@@ -389,6 +407,17 @@ h3 {
   p.bye::before{
     width: 110px;
   } 
+
+  .fa-5x {
+    font-size: 100px;
+  
+  }
+
+  .icones {
+    margin-left: 10px;
+    padding-top: 60px;
+    margin-right: 10px;
+  }
 
 }
 

@@ -161,8 +161,20 @@ input[type="checkbox"] {
 }
 
 .icones {
-  padding-left: 20px;
-  padding-top: 20px;
+  margin-left: 20px;
+  padding-top: 30px;
+  margin-right: 20px;
+}
+
+.fa-solid,
+.fas {
+  font-weight: 1;
+}
+
+
+.fa-5x {
+  font-size: 130px;
+
 }
 
 
@@ -291,7 +303,24 @@ p.p4 {
     width: 100px;
   }
 
+  .fa-5x {
+    font-size: 80px;
 
+  }
+
+  .icones {
+    margin-left: 10px;
+    padding-top: 60px;
+    margin-right: 10px;
+  }
+
+  .icone {
+    margin-left: 100px;
+  }
+
+  .pckgg {
+    width: 50px;
+  }
 }
 
 @media screen and (min-width:701px) and (max-width:991px) {
@@ -311,6 +340,18 @@ p.p4 {
 
   .texte2 {
     margin-left: 8px;
+  }
+
+
+  .fa-5x {
+    font-size: 100px;
+
+  }
+
+  .icones {
+    margin-left: 10px;
+    padding-top: 60px;
+    margin-right: 10px;
   }
 }
 

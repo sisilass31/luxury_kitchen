@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;500&display=swap');
+
 * {
   padding: 0;
   margin: 0;
@@ -8,7 +9,7 @@
 
 }
 
-a{
+a {
   color: #FFFFFF;
 }
 
@@ -161,11 +162,21 @@ input[type="checkbox"] {
 }
 
 .icones {
-  padding-left: 20px;
-  padding-top: 20px;
-
+  margin-left: 20px;
+  padding-top: 30px;
+  margin-right: 20px;
 }
 
+.fa-solid,
+.fas {
+  font-weight: 1;
+}
+
+
+.fa-5x {
+  font-size: 130px;
+
+}
 
 
 
@@ -284,6 +295,7 @@ p.p6 {
 
   color: rgba(255, 255, 255, 0.8);
 }
+
 p.bye::before {
   content: '';
   position: absolute;
@@ -445,13 +457,25 @@ button {
   .texte4 {
     display: none;
   }
+
   p.bye::before {
     width: 80px;
+  }
+
+  .fa-5x {
+    font-size: 80px;
+
+  }
+
+  .icones {
+    margin-left: 10px;
+    padding-top: 60px;
+    margin-right: 10px;
   }
 }
 
 
-@media screen and (min-width:701px) and (max-width:1100px){
+@media screen and (min-width:701px) and (max-width:1100px) {
   p.p1 {
     font-size: 15px;
   }
@@ -463,7 +487,7 @@ button {
 
   p {
     font-size: 13px;
- 
+
   }
 
   .texte2 {
@@ -473,20 +497,31 @@ button {
   .imgg {
     width: 250px;
   }
-.texte4{
-display: none;
- 
-}
 
-  p.p6{
+  .texte4 {
+    display: none;
+
+  }
+
+  p.p6 {
     font-size: 13px;
   }
 
-  h1{
+  h1 {
     text-align: center;
     font-size: 18px;
   }
 
+  .fa-5x {
+    font-size: 100px;
+  
+  }
+
+  .icones {
+    margin-left: 10px;
+    padding-top: 60px;
+    margin-right: 10px;
+  }
 }
 
 
