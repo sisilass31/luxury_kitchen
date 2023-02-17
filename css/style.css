@@ -162,16 +162,17 @@ input[type="checkbox"] {
 .buton {
   display: flex;
   justify-content: center;
-}
+} 
 
 .button1 {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  width: 30%; 
+  align-items: center;
+  width: 100%;  
 }
 
 .btnblue {
+  width: 20%;
   border-radius: 20px;
   height: 50px; 
   background-color: #254AA5;
@@ -180,11 +181,12 @@ input[type="checkbox"] {
   align-items: center;
   justify-content: center;
   font-size: 18px;
-  margin-bottom: 4%;
+  margin-bottom: 2%;
   color: #ffffff;
 }
 
 .btnblack {
+  width: 20%;
   border-radius: 20px;
   height: 50px;
   background-color: #000000;
@@ -193,11 +195,12 @@ input[type="checkbox"] {
   align-items: center;
   justify-content: center;
   font-size: 18px;
-  margin-bottom: 4%;
+  margin-bottom: 2%;
   color: #ffffff;
 }
 
 .btnlight {
+  width: 20%;
   border-radius: 20px;
   height: 50px;
   background-color: transparent;
@@ -206,7 +209,7 @@ input[type="checkbox"] {
   align-items: center;
   justify-content: center;
   font-size: 18px;
-  margin-bottom: 4%;
+  margin-bottom: 2%;
   color: #ffffff;
 }
 
@@ -292,7 +295,7 @@ input[type="checkbox"] {
 /*button*/
 
 
- @media (max-width:500px) {
+ @media (max-width:760px) {
 
   input[type="text"] {
     width: 290px;
@@ -325,9 +328,9 @@ input[type="checkbox"] {
     font-size: 13px;
   }
 
-  .button1 {
+  /* .button1 {
     padding-right: 250px;
-  }
+  } */
 
   input[type="submit"] {
     font-size: 15px;
@@ -336,7 +339,7 @@ input[type="checkbox"] {
   }
 } 
 
-  @media screen and (min-width:501px) and (max-width:991px){
+  @media screen and (min-width:761px) and (max-width:991px){
   input[type="text"] {
     width: 290px;
     height: 56px;
@@ -344,14 +347,14 @@ input[type="checkbox"] {
   }
 
   button.btnblue {
-    height: 34px;
+    height: 30px;
     width: 250px;
     font-size: 12px;
     margin-bottom: 20px;
   }
 
   button.btnblack {
-    height: 34px;
+    height: 30px;
     width: 250px;
     font-size: 12px;
     margin-bottom: 20px;
@@ -359,7 +362,7 @@ input[type="checkbox"] {
   }
 
   button.btnlight {
-    height: 34px;
+    height: 30px;
     width: 250px;
     font-size: 12px;
     margin-bottom: 20px;
