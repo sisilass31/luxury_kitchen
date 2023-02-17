@@ -10,7 +10,7 @@
     <script src="https://code.iconify.design/iconify-icon/1.0.3/iconify-icon.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" />
     <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
-    <link rel="stylesheet" href="../css/acceuil.css">
+    <link rel="stylesheet" href="./style.css">
     <title>Panier</title>
 </head>
 
@@ -18,18 +18,17 @@
     <nav>
         <div class="logo"><a href="#">Luxury kitchen</a></div>
         <ul>
-            <li><a href="../html/poêle.html" class="nav-link">Poêles</a></li>
-            <li><a href="../html/verres.html" class="nav-link">Verres</a></li>
-            <li><a href="../html/accessoires.html" class="nav-link">Accessoires</a></li>
-            <li><a href="../html/couverts.html" class="nav-link">Couverts</a></li>
-            <li><a href="../html/assiettes.html" class="nav-link">Assiettes</a></li>
-            <li><a href="../html/moules_et_plaques.html" class="nav-link">Moules et plaques</a></li>
+            <li><a href="#" class="nav-link">Poêles</a></li>
+            <li><a href="#" class="nav-link">Verres</a></li>
+            <li><a href="#" class="nav-link">Accessoires</a></li>
+            <li><a href="#" class="nav-link">Couverts</a></li>
+            <li><a href="#" class="nav-link">Assiettes</a></li>
+            <li><a href="#" class="nav-link">Moules et plaques</a></li>
         </ul>
         <div class="icon_navbar">
             <div class="icon">
                 <div class="icon_panier">
-                    <a href="../html/panier.html"><iconify-icon icon="ph:bag-simple" style="color: white;"
-                            width="25"></iconify-icon></a>
+                    <a href="#"><iconify-icon icon="ph:bag-simple" style="color: white;" width="25"></iconify-icon></a>
                 </div>
                 <div class="icon_account">
                     <a href="#"><iconify-icon icon="ic:sharp-account-circle" style="color: white;"
@@ -53,12 +52,12 @@
                         </div>
                         <div class="side_link">
                             <ul class="side_ul">
-                                <li><a href="../html/poêle.html" class="nav-link">Poêles</a></li>
-                                <li><a href="../html/verres.html" class="nav-link">Verres</a></li>
-                                <li><a href="../html/accessoires.html" class="nav-link">Accessoires</a></li>
-                                <li><a href="../html/couverts.html" class="nav-link">Couverts</a></li>
-                                <li><a href="../html/assiettes.html" class="nav-link">Assiettes</a></li>
-                                <li><a href="../html/moules_et_plaques.html" class="nav-link">Moules et plaques</a></li>
+                                <li><a href="#" class="nav-link-side">Poêles</a></li>
+                                <li><a href="#" class="nav-link-side">Verres</a></li>
+                                <li><a href="#" class="nav-link-side">Accessoires</a></li>
+                                <li><a href="#" class="nav-link-side">Couverts</a></li>
+                                <li><a href="#" class="nav-link-side">Assiettes</a></li>
+                                <li><a href="#" class="nav-link-side">Moules et plaques</a></li>
                             </ul>
                         </div>
                         <div class="membre">
@@ -83,12 +82,12 @@
                                     <p>Panier</p>
                                 </div>
                             </a>
-                            <a href="#">
-                                <div class="roww">
-                                    <box-icon type='solid' name='package' color='#ffffff' size='1.7rem'></box-icon>
-                                    <p>Commande</p>
-                                </div>
-                            </a>
+                           <a href="#">
+                            <div class="roww">
+                                <box-icon type='solid' name='package' color='#ffffff' size='1.7rem'></box-icon>
+                                <p>Commande</p>
+                            </div>
+                           </a>
                             <a href="#">
                                 <div class="roww">
                                     <box-icon name='user-circle' type='solid' color='#ffffff' size='1.7rem'></box-icon>
@@ -118,18 +117,121 @@
             </div>
         </div>
         <!--sidebar-->
-        <div class="container">
-            <div class="card">
-                <img src="../img/moules/moule3.jpg" alt="poele">
+        <!--popup ordi-->
+        <div id="popup_sign" class="overlay_sign">
+            <div class="popup_sign">
+                <div class="content_sign">
+                    <div class="botton_sign">
+                        <button><a href="#">identifiez-vous</a></button>
+                    </div>
+                    <div class="client_start">
+                        <div class="new_client">
+                            <p>Nouveau client ?</p>
+                        </div>
+                        <div class="commencez-ici">
+                            <a href="#">Commencez ici</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--popup-->
+
+        <!--découvrir nos offres-->
+        <div class="box_decouvrir">
+            <div class="title_offre">
+                <h2>Découvrez nos offres du moment ! </h2>
+            </div>
+            <div class="nos_offres">
+                <div class="box-card">
+                    <div class="card">
+                        <img src="../img/poêle/poele6.webp" alt="poele">
+                        <div class="descr_panier1">
+                            <div class="text_panier">
+                                <p>SOLDES ! Poêles de cuisson</p>
+                            </div>
+                            <div class="panier_prix1">
+                                <div class="ajout_panier">
+                                    <form action="#">
+                                        <a href="#"><button type="submit">J'en profite !</button></a>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="box-card">
+                    <div class="card">
+                        <img src="../img/moules/moule2.webp" alt="poele">
+                        <div class="descr_panier1">
+                            <div class="text_panier">
+                                <p>SOLDES ! Moules et plaques</p>
+                            </div>
+                            <div class="panier_prix1">
+                                <div class="ajout_panier">
+                                    <form action="#">
+                                        <a href="#"><button type="submit">J'en profite !</button></a>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="box-card">
+                    <div class="card">
+                        <img src="../img/accessoire/ustensile.webp" alt="poele">
+                        <div class="descr_panier1">
+                            <div class="text_panier">
+                                <p>SOLDES ! Ustensiles</p>
+                            </div>
+                            <div class="panier_prix1">
+                                <div class="ajout_panier">
+                                    <form action="#">
+                                        <a href="#"><button type="submit">J'en profite !</button></a>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="box-card">
+                    <div class="card">
+                        <img src="../img/verres/verre2.webp" alt="poele">
+                        <div class="descr_panier1">
+                            <div class="text_panier">
+                                <p>SOLDES ! Verres</p>
+                            </div>
+                            <div class="panier_prix1">
+                                <div class="ajout_panier">
+                                    <form action="#">
+                                        <a href="#"><button type="submit">J'en profite !</button></a>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--découvrir nos offres-->
+        <!--à la une-->
+        <div class="title_mini_card">
+            <h2>À la une</h2>
+        </div>
+        <div class="container1">
+            <div class="mini_card">
+                <div class="img_mini_card">
+                    <img src="../img/accessoire/accessoire1.png" alt="poele">
+                </div>
                 <div class="descr_panier">
                     <div class="text_panier">
                         <p>Kit 4 Poêles Tentation rouge avec manche amovible</p>
                     </div>
                     <div class="panier_prix">
-                        <div class="ajout_panier">
+                        <div class="ajout_panier1">
                             <form action="#">
                                 <a href="#"><button type="submit">
-                                        <p class="p_botton">ajout au panier</p>
+                                        <p class="p_botton">ajouter au panier</p>
                                     </button></a>
                             </form>
                         </div>
@@ -141,157 +243,19 @@
                     </div>
                 </div>
             </div>
-            <div class="card">
-                <img src="../img/moules/moule2.webp" alt="poele">
-                <div class="descr_panier">
-                    <div class="text_panier">
-                        <p>Kit 4 Poêles Tentation rouge avec manche amovible</p>
-                    </div>
-                    <div class="panier_prix">
-                        <div class="ajout_panier">
-                            <form action="#">
-                                <a href="#"><button type="submit">ajout au panier</button></a>
-                            </form>
-                        </div>
-                        <div class="prix">
-                            <div class="prix_panier">
-                                <p>55€00</p>
-                            </div>
-                        </div>
-                    </div>
+            <div class="mini_card">
+                <div class="img_mini_card">
+                    <img src="../img/couverts/couvert2.png" alt="poele">
                 </div>
-            </div>
-            <div class="card">
-                <img src="../img/moules/moule5.jpeg" alt="poele">
                 <div class="descr_panier">
                     <div class="text_panier">
                         <p>Kit 4 Poêles Tentation rouge avec manche amovible</p>
                     </div>
                     <div class="panier_prix">
-                        <div class="ajout_panier">
-                            <form action="#">
-                                <a href="#"><button type="submit">ajout au panier</button></a>
-                            </form>
-                        </div>
-                        <div class="prix">
-                            <div class="prix_panier">
-                                <p>55€00</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="card">
-                <img src="../img/moules/moule6.jpeg" alt="poele">
-                <div class="descr_panier">
-                    <div class="text_panier">
-                        <p>Kit 4 Poêles Tentation rouge avec manche amovible</p>
-                    </div>
-                    <div class="panier_prix">
-                        <div class="ajout_panier">
-                            <form action="#">
-                                <a href="#"><button type="submit">ajout au panier</button></a>
-                            </form>
-                        </div>
-                        <div class="prix">
-                            <div class="prix_panier">
-                                <p>55€00</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="card">
-                <img src="../img/moules/moule4.jpeg" alt="poele">
-                <div class="descr_panier">
-                    <div class="text_panier">
-                        <p>Kit 4 Poêles Tentation rouge avec manche amovible</p>
-                    </div>
-                    <div class="panier_prix">
-                        <div class="ajout_panier">
-                            <form action="#">
-                                <a href="#"><button type="submit">ajout au panier</button></a>
-                            </form>
-                        </div>
-                        <div class="prix">
-                            <div class="prix_panier">
-                                <p>55€00</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="card">
-                <img src="../img/moules/moule7.jpg" alt="poele">
-                <div class="descr_panier">
-                    <div class="text_panier">
-                        <p>Kit 4 Poêles Tentation rouge avec manche amovible</p>
-                    </div>
-                    <div class="panier_prix">
-                        <div class="ajout_panier">
-                            <form action="#">
-                                <a href="#"><button type="submit">ajout au panier</button></a>
-                            </form>
-                        </div>
-                        <div class="prix">
-                            <div class="prix_panier">
-                                <p>55€00</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="card">
-                <img src="../img/moules/moule1.jpg" alt="poele">
-                <div class="descr_panier">
-                    <div class="text_panier">
-                        <p>Kit 4 Poêles Tentation rouge avec manche amovible</p>
-                    </div>
-                    <div class="panier_prix">
-                        <div class="ajout_panier">
-                            <form action="#">
-                                <a href="#"><button type="submit">ajout au panier</button></a>
-                            </form>
-                        </div>
-                        <div class="prix">
-                            <div class="prix_panier">
-                                <p>55€00</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="card">
-                <img src="../img/accessoire/accessoire8.jpg" alt="poele">
-                <div class="descr_panier">
-                    <div class="text_panier">
-                        <p>Kit 4 Poêles Tentation rouge avec manche amovible</p>
-                    </div>
-                    <div class="panier_prix">
-                        <div class="ajout_panier">
-                            <form action="#">
-                                <a href="#"><button type="submit">ajout au panier</button></a>
-                            </form>
-                        </div>
-                        <div class="prix">
-                            <div class="prix_panier">
-                                <p>55€00</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="card">
-                <img src="../img/moules/moule3.jpg" alt="poele">
-                <div class="descr_panier">
-                    <div class="text_panier">
-                        <p>Kit 4 Poêles Tentation rouge avec manche amovible</p>
-                    </div>
-                    <div class="panier_prix">
-                        <div class="ajout_panier">
+                        <div class="ajout_panier1">
                             <form action="#">
                                 <a href="#"><button type="submit">
-                                        <p class="p_botton">ajout au panier</p>
+                                        <p class="p_botton">ajouter au panier</p>
                                     </button></a>
                             </form>
                         </div>
@@ -303,16 +267,20 @@
                     </div>
                 </div>
             </div>
-            <div class="card">
-                <img src="../img/moules/moule2.webp" alt="poele">
+            <div class="mini_card">
+                <div class="img_mini_card">
+                    <img src="../img/accessoire/couteau.webp" alt="poele">
+                </div>
                 <div class="descr_panier">
                     <div class="text_panier">
                         <p>Kit 4 Poêles Tentation rouge avec manche amovible</p>
                     </div>
                     <div class="panier_prix">
-                        <div class="ajout_panier">
+                        <div class="ajout_panier1">
                             <form action="#">
-                                <a href="#"><button type="submit">ajout au panier</button></a>
+                                <a href="#"><button type="submit">
+                                        <p class="p_botton">ajouter au panier</p>
+                                    </button></a>
                             </form>
                         </div>
                         <div class="prix">
@@ -323,16 +291,20 @@
                     </div>
                 </div>
             </div>
-            <div class="card">
-                <img src="../img/moules/moule5.jpeg" alt="poele">
+            <div class="mini_card">
+                <div class="img_mini_card">
+                    <img src="../img/poêle/poele2.webp" alt="poele">
+                </div>
                 <div class="descr_panier">
                     <div class="text_panier">
                         <p>Kit 4 Poêles Tentation rouge avec manche amovible</p>
                     </div>
                     <div class="panier_prix">
-                        <div class="ajout_panier">
+                        <div class="ajout_panier1">
                             <form action="#">
-                                <a href="#"><button type="submit">ajout au panier</button></a>
+                                <a href="#"><button type="submit">
+                                        <p class="p_botton">ajouter au panier</p>
+                                    </button></a>
                             </form>
                         </div>
                         <div class="prix">
@@ -343,16 +315,20 @@
                     </div>
                 </div>
             </div>
-            <div class="card">
-                <img src="../img/moules/moule6.jpeg" alt="poele">
+            <div class="mini_card">
+                <div class="img_mini_card">
+                    <img src="../img/accessoire/accessoire1.png" alt="poele">
+                </div>
                 <div class="descr_panier">
                     <div class="text_panier">
                         <p>Kit 4 Poêles Tentation rouge avec manche amovible</p>
                     </div>
                     <div class="panier_prix">
-                        <div class="ajout_panier">
+                        <div class="ajout_panier1">
                             <form action="#">
-                                <a href="#"><button type="submit">ajout au panier</button></a>
+                                <a href="#"><button type="submit">
+                                        <p class="p_botton">ajouter au panier</p>
+                                    </button></a>
                             </form>
                         </div>
                         <div class="prix">
@@ -363,16 +339,20 @@
                     </div>
                 </div>
             </div>
-            <div class="card">
-                <img src="../img/moules/moule4.jpeg" alt="poele">
+            <div class="mini_card">
+                <div class="img_mini_card">
+                    <img src="../img/couverts/couvert2.png" alt="poele">
+                </div>
                 <div class="descr_panier">
                     <div class="text_panier">
                         <p>Kit 4 Poêles Tentation rouge avec manche amovible</p>
                     </div>
                     <div class="panier_prix">
-                        <div class="ajout_panier">
+                        <div class="ajout_panier1">
                             <form action="#">
-                                <a href="#"><button type="submit">ajout au panier</button></a>
+                                <a href="#"><button type="submit">
+                                        <p class="p_botton">ajouter au panier</p>
+                                    </button></a>
                             </form>
                         </div>
                         <div class="prix">
@@ -383,16 +363,20 @@
                     </div>
                 </div>
             </div>
-            <div class="card">
-                <img src="../img/moules/moule7.jpg" alt="poele">
+            <div class="mini_card">
+                <div class="img_mini_card">
+                    <img src="../img/accessoire/couteau.webp" alt="poele">
+                </div>
                 <div class="descr_panier">
                     <div class="text_panier">
                         <p>Kit 4 Poêles Tentation rouge avec manche amovible</p>
                     </div>
                     <div class="panier_prix">
-                        <div class="ajout_panier">
+                        <div class="ajout_panier1">
                             <form action="#">
-                                <a href="#"><button type="submit">ajout au panier</button></a>
+                                <a href="#"><button type="submit">
+                                        <p class="p_botton">ajouter au panier</p>
+                                    </button></a>
                             </form>
                         </div>
                         <div class="prix">
@@ -403,36 +387,20 @@
                     </div>
                 </div>
             </div>
-            <div class="card">
-                <img src="../img/moules/moule1.jpg" alt="poele">
-                <div class="descr_panier">
-                    <div class="text_panier">
-                        <p>Kit 4 Poêles Tentation rouge avec manche amovible</p>
-                    </div>
-                    <div class="panier_prix">
-                        <div class="ajout_panier">
-                            <form action="#">
-                                <a href="#"><button type="submit">ajout au panier</button></a>
-                            </form>
-                        </div>
-                        <div class="prix">
-                            <div class="prix_panier">
-                                <p>55€00</p>
-                            </div>
-                        </div>
-                    </div>
+            <div class="mini_card">
+                <div class="img_mini_card">
+                    <img src="../img/poêle/poele2.webp" alt="poele">
                 </div>
-            </div>
-            <div class="card">
-                <img src="../img/accessoire/accessoire8.jpg" alt="poele">
                 <div class="descr_panier">
                     <div class="text_panier">
                         <p>Kit 4 Poêles Tentation rouge avec manche amovible</p>
                     </div>
                     <div class="panier_prix">
-                        <div class="ajout_panier">
+                        <div class="ajout_panier1">
                             <form action="#">
-                                <a href="#"><button type="submit">ajout au panier</button></a>
+                                <a href="#"><button type="submit">
+                                        <p class="p_botton">ajouter au panier</p>
+                                    </button></a>
                             </form>
                         </div>
                         <div class="prix">
@@ -444,8 +412,208 @@
                 </div>
             </div>
         </div>
-    </main>
+        <!--à la une-->
 
+        <!--nouveautés-->
+        <div class="title_mini_card">
+            <h2>Nos nouveautés</h2>
+        </div>
+        <div class="container1">
+            <div class="mini_card">
+                <div class="img_mini_card">
+                    <img src="../img/accessoire/accessoire6.jpg" alt="poele">
+                </div>
+                <div class="descr_panier">
+                    <div class="text_panier">
+                        <p>Kit 4 Poêles Tentation rouge avec manche amovible</p>
+                    </div>
+                    <div class="panier_prix">
+                        <div class="ajout_panier1">
+                            <form action="#">
+                                <a href="#"><button type="submit">
+                                        <p class="p_botton">ajouter au panier</p>
+                                    </button></a>
+                            </form>
+                        </div>
+                        <div class="prix">
+                            <div class="prix_panier">
+                                <p>55€00</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="mini_card">
+                <div class="img_mini_card">
+                    <img src="../img/poêle/poele12.webp" alt="poele">
+                </div>
+                <div class="descr_panier">
+                    <div class="text_panier">
+                        <p>Kit 4 Poêles Tentation rouge avec manche amovible</p>
+                    </div>
+                    <div class="panier_prix">
+                        <div class="ajout_panier1">
+                            <form action="#">
+                                <a href="#"><button type="submit">
+                                        <p class="p_botton">ajouter au panier</p>
+                                    </button></a>
+                            </form>
+                        </div>
+                        <div class="prix">
+                            <div class="prix_panier">
+                                <p>55€00</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="mini_card">
+                <div class="img_mini_card">
+                    <img src="../img/accessoire/accessoire8.jpg" alt="poele">
+                </div>
+                <div class="descr_panier">
+                    <div class="text_panier">
+                        <p>Kit 4 Poêles Tentation rouge avec manche amovible</p>
+                    </div>
+                    <div class="panier_prix">
+                        <div class="ajout_panier1">
+                            <form action="#">
+                                <a href="#"><button type="submit">
+                                        <p class="p_botton">ajouter au panier</p>
+                                    </button></a>
+                            </form>
+                        </div>
+                        <div class="prix">
+                            <div class="prix_panier">
+                                <p>55€00</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="mini_card">
+                <div class="img_mini_card">
+                    <img src="../img/accessoire/accessoire5.webp" alt="poele">
+                </div>
+                <div class="descr_panier">
+                    <div class="text_panier">
+                        <p>Kit 4 Poêles Tentation rouge avec manche amovible</p>
+                    </div>
+                    <div class="panier_prix">
+                        <div class="ajout_panier1">
+                            <form action="#">
+                                <a href="#"><button type="submit">
+                                        <p class="p_botton">ajouter au panier</p>
+                                    </button></a>
+                            </form>
+                        </div>
+                        <div class="prix">
+                            <div class="prix_panier">
+                                <p>55€00</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="mini_card">
+                <div class="img_mini_card">
+                    <img src="../img/accessoire/accessoire6.jpg" alt="poele">
+                </div>
+                <div class="descr_panier">
+                    <div class="text_panier">
+                        <p>Kit 4 Poêles Tentation rouge avec manche amovible</p>
+                    </div>
+                    <div class="panier_prix">
+                        <div class="ajout_panier1">
+                            <form action="#">
+                                <a href="#"><button type="submit">
+                                        <p class="p_botton">ajouter au panier</p>
+                                    </button></a>
+                            </form>
+                        </div>
+                        <div class="prix">
+                            <div class="prix_panier">
+                                <p>55€00</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="mini_card">
+                <div class="img_mini_card">
+                    <img src="../img/poêle/poele12.webp" alt="poele">
+                </div>
+                <div class="descr_panier">
+                    <div class="text_panier">
+                        <p>Kit 4 Poêles Tentation rouge avec manche amovible</p>
+                    </div>
+                    <div class="panier_prix">
+                        <div class="ajout_panier1">
+                            <form action="#">
+                                <a href="#"><button type="submit">
+                                        <p class="p_botton">ajouter au panier</p>
+                                    </button></a>
+                            </form>
+                        </div>
+                        <div class="prix">
+                            <div class="prix_panier">
+                                <p>55€00</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="mini_card">
+                <div class="img_mini_card">
+                    <img src="../img/accessoire/accessoire8.jpg" alt="poele">
+                </div>
+                <div class="descr_panier">
+                    <div class="text_panier">
+                        <p>Kit 4 Poêles Tentation rouge avec manche amovible</p>
+                    </div>
+                    <div class="panier_prix">
+                        <div class="ajout_panier1">
+                            <form action="#">
+                                <a href="#"><button type="submit">
+                                        <p class="p_botton">ajouter au panier</p>
+                                    </button></a>
+                            </form>
+                        </div>
+                        <div class="prix">
+                            <div class="prix_panier">
+                                <p>55€00</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="mini_card">
+                <div class="img_mini_card">
+                    <img src="../img/accessoire/accessoire5.webp" alt="poele">
+                </div>
+                <div class="descr_panier">
+                    <div class="text_panier">
+                        <p>Kit 4 Poêles Tentation rouge avec manche amovible</p>
+                    </div>
+                    <div class="panier_prix">
+                        <div class="ajout_panier1">
+                            <form action="#">
+                                <a href="#"><button type="submit">
+                                        <p class="p_botton">ajouter au panier</p>
+                                    </button></a>
+                            </form>
+                        </div>
+                        <div class="prix">
+                            <div class="prix_panier">
+                                <p>55€00</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--nouveautés-->
+    </main>
     <footer>
         <div class="container">
             <div class="row">
@@ -468,13 +636,7 @@
                     <div class="paiement">
                         <p>Paiement sécurisé</p>
                         <div class="img_paiement">
-                            <div class="logo_paiement">
-                                <div class="icon_paiement"><iconify-icon icon="logos:visa"></iconify-icon></div>
-                                <div class="icon_paiement"><iconify-icon icon="logos:mastercard"
-                                        width="30"></iconify-icon></div>
-                                <div class="icon_paiement2"><iconify-icon icon="logos:paypal" width="20"></iconify-icon>
-                                </div>
-                            </div>
+                            <img src="../img/other/paiement.png" alt="google">
                         </div>
                     </div>
                 </div>
@@ -491,13 +653,13 @@
             <div class="grp_swipe">
                 <div class="swipe_border">
                     <div class="swipe">
-                        <span><iconify-icon icon="material-symbols:arrow-right-alt-rounded" style="color: white;"
-                                width="20" rotate="270deg"></iconify-icon></span>
+                        <span><i class="fa-solid fa-arrow-up"></i></span>
                     </div>
                 </div>
             </div>
         </div>
     </footer>
+
 </body>
 
 </html>
