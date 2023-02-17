@@ -609,11 +609,13 @@ button {
     .box_button2 {
         display: flex;
         justify-content: space-evenly;
-        flex-direction: column;
+        margin: 35px;
     }
 
     .box_button {
-        display: none;
+        display: flex;
+        justify-content: space-evenly;
+        margin: 35px;
     }
 }
 
@@ -643,11 +645,7 @@ button {
     .box_button2 {
         display: flex;
         justify-content: space-evenly;
-        flex-direction: column;
-    }
-
-    .box_button {
-        display: none;
+        margin: 35px;
     }
 }
 
@@ -665,7 +663,9 @@ button {
     }
 
     .box_button2 {
-        display: none;
+        display: flex;
+        justify-content: space-evenly;
+        margin: 35px;
     }
 
     .box_button {
@@ -689,9 +689,6 @@ button {
         font-size: 20px;
     }
 
-    .box_button2 {
-        display: none;
-    }
 }
 
 /* Mobile */
@@ -754,10 +751,6 @@ button {
 
     .description strong {
         font-size: 20px;
-    }
-
-    .box_button2 {
-        display: none;
     }
 }
 
@@ -862,9 +855,6 @@ button {
         display: none;
     }
 
-    .box_button2 {
-        display: none;
-    }
 }
 
 @media screen and (min-width:635px) and (max-width:735px) {

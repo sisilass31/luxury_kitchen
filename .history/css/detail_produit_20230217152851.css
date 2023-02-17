@@ -258,10 +258,6 @@ input[type="checkbox"] {
     margin: 35px;
 }
 
-.box_button2 {
-    display: none;
-}
-
 .botton_product input {
     background: linear-gradient(#E02B1A, #930D00);
     border: none;
@@ -391,19 +387,16 @@ input {
     transition: opacity 500ms;
     visibility: hidden;
     opacity: 0;
+    overflow-y: scroll;
 }
 
 .overlay2:target {
     visibility: visible;
     opacity: 1;
 }
-
 #popup2 {
     width: 100%;
-    scrollbar-width: none;
-    overflow-x: scroll;
 }
-
 .content2 {
     display: flex;
     margin-top: 20px;
@@ -525,6 +518,7 @@ input {
     position: absolute;
     bottom: 10px;
     padding: 20px;
+    page-break-after: 20px;
     text-align: center;
 }
 
@@ -605,16 +599,7 @@ button {
     .container2 {
         padding: 10px;
     }
-
-    .box_button2 {
-        display: flex;
-        justify-content: space-evenly;
-        flex-direction: column;
-    }
-
-    .box_button {
-        display: none;
-    }
+    .
 }
 
 @media (max-width: 635px) {
@@ -639,16 +624,6 @@ button {
     .container2 {
         padding: 10px;
     }
-
-    .box_button2 {
-        display: flex;
-        justify-content: space-evenly;
-        flex-direction: column;
-    }
-
-    .box_button {
-        display: none;
-    }
 }
 
 @media (min-width: 800px) {
@@ -662,16 +637,6 @@ button {
 
     .prix_panier p {
         font-size: 20px;
-    }
-
-    .box_button2 {
-        display: none;
-    }
-
-    .box_button {
-        display: flex;
-        justify-content: space-evenly;
-        margin: 35px;
     }
 
 }
@@ -689,9 +654,6 @@ button {
         font-size: 20px;
     }
 
-    .box_button2 {
-        display: none;
-    }
 }
 
 /* Mobile */
@@ -754,10 +716,6 @@ button {
 
     .description strong {
         font-size: 20px;
-    }
-
-    .box_button2 {
-        display: none;
     }
 }
 
@@ -862,9 +820,6 @@ button {
         display: none;
     }
 
-    .box_button2 {
-        display: none;
-    }
 }
 
 @media screen and (min-width:635px) and (max-width:735px) {
@@ -967,7 +922,7 @@ button {
 }
 
 @media (max-width:635px) {
-
+    
     .container {
         display: flex;
         flex-direction: column;

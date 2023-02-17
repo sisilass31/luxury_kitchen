@@ -645,7 +645,6 @@ button {
         justify-content: space-evenly;
         flex-direction: column;
     }
-
     .box_button {
         display: none;
     }
@@ -688,7 +687,6 @@ button {
     .prix_panier p {
         font-size: 20px;
     }
-
     .box_button2 {
         display: none;
     }
@@ -755,7 +753,6 @@ button {
     .description strong {
         font-size: 20px;
     }
-
     .box_button2 {
         display: none;
     }
@@ -861,7 +858,6 @@ button {
     .paragraphe {
         display: none;
     }
-
     .box_button2 {
         display: none;
     }

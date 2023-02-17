@@ -26,7 +26,7 @@ nav {
     background: linear-gradient(#E02B1A, #930D00);
     align-items: center;
     justify-content: space-between;
-padding: 0 50px 0 3%;
+    padding: 0 50px 0 3%;
     flex-wrap: wrap;
 }
 
